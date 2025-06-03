@@ -1,0 +1,1092 @@
+ERROR - 2025-03-13 00:31:32 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'daily_report', 3306, '', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(145): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(145): CodeIgniter\Database\BaseBuilder->countAllResults()
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-13 00:31:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `users`
+WHERE `status` = :status:
+AND `group` IN :group:', [...], false)
+ 3 APPPATH\Controllers\OutdoorActivity.php(145): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-13 00:31:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'daily_report', 3306, '', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\History.php(42): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\History->index()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\History.php(42): CodeIgniter\BaseModel->findAll()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\History->index()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#13 {main}
+CRITICAL - 2025-03-13 00:31:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: history]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `status` = :status:
+AND `role_id` != :role_id:
+ORDER BY `nama` ASC', [...], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\History.php(42): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\History->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-13 00:31:50 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'daily_report', 3306, '', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ActualActivity.php(56): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\ActualActivity->indexPersonal()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ActualActivity.php(56): CodeIgniter\BaseModel->findAll()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\ActualActivity->indexPersonal()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#13 {main}
+CRITICAL - 2025-03-13 00:31:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: actual-activity/personal]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `comment_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`comment_by`
+WHERE `actual_activity`.`status` IN :actual_activity.status:
+AND `actual_activity`.`created_by` = :actual_activity.created_by:
+ORDER BY `actual_activity`.`dates` DESC', [...], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\ActualActivity.php(56): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->indexPersonal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-13 00:31:57 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'daily_report', 3306, '', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ActualActivity.php(56): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\ActualActivity->indexPersonal()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ActualActivity.php(56): CodeIgniter\BaseModel->findAll()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\ActualActivity->indexPersonal()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#13 {main}
+CRITICAL - 2025-03-13 00:31:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: GET, Route: actual-activity/personal]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `comment_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`comment_by`
+WHERE `actual_activity`.`status` IN :actual_activity.status:
+AND `actual_activity`.`created_by` = :actual_activity.created_by:
+ORDER BY `actual_activity`.`dates` DESC', [...], false)
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\ActualActivity.php(56): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->indexPersonal()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 04:35:51 --> ErrorException: Undefined array key "proses_gang"
+[Method: GET, Route: pps/edit/17]
+in APPPATH\Views\pps\edit.php on line 299.
+ 1 APPPATH\Views\pps\edit.php(299): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "proses_gang"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 299)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1253): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('17')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 08:43:41 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: pps/update]
+in APPPATH\Controllers\Pps.php on line 1342.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->update('')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 08:44:01 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: pps/update]
+in APPPATH\Controllers\Pps.php on line 1342.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->update('')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 08:44:45 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: pps/update]
+in APPPATH\Controllers\Pps.php on line 1342.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->update('')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 08:44:49 --> Error: Call to a member function isValid() on null
+[Method: POST, Route: pps/update]
+in APPPATH\Controllers\Pps.php on line 1342.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->update('')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 09:01:50 --> ErrorException: Attempt to read property "blank_layout" on array
+[Method: POST, Route: pps/update]
+in APPPATH\Controllers\Pps.php on line 1288.
+ 1 APPPATH\Controllers\Pps.php(1288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "blank_layout" on array', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 1288)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 09:02:17 --> ErrorException: Attempt to read property "blank_layout" on array
+[Method: POST, Route: pps/update]
+in APPPATH\Controllers\Pps.php on line 1288.
+ 1 APPPATH\Controllers\Pps.php(1288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "blank_layout" on array', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 1288)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-13 10:18:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT \r\n      ...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-13 10:18:49 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 10:18:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 10:18:49 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-13 10:18:54 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT \r\n      ...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-13 10:18:54 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 10:18:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 10:18:54 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-13 10:18:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT \r\n      ...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-13 10:18:57 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 10:18:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 10:18:57 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-13 10:18:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT \r\n      ...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-13 10:18:57 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 10:18:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 10:18:57 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-13 10:18:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT \r\n      ...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-13 10:18:57 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 10:18:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 10:18:57 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-13 10:18:57 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT \r\n      ...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT \r\n      ...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT \r\n      ...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT \r\n      ...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-13 10:18:57 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 10:18:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-13 10:18:57 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM master_table t1 
+                                    WHERE (0.85 * CAST...' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 0 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - 0) ASC
+                                    LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(290): CodeIgniter\Database\BaseConnection->query('SELECT 
+                                            t1.machine AS machine, 
+                                            t1.capacity AS capacity, 
+                                            t1.cushion AS cushion,
+                                            t1.dh_dies AS dh_dies,
+                                        
+                                    FROM master_table t1 
+                                    WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                        AND (t1.machine LIKE \'%1%\' OR t1.machine LIKE \'%MP%\' OR t1.machine LIKE \'%4%\')
+                                    ORDER BY ABS((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) - ?) ASC
+                                    LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

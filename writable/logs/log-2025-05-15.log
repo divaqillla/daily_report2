@@ -1,0 +1,11 @@
+CRITICAL - 2025-05-15 06:32:46 --> ErrorException: Undefined variable $result
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 664.
+ 1 APPPATH\Controllers\Pps.php(664): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 664)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

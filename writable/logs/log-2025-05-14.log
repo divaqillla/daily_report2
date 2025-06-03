@@ -1,0 +1,41 @@
+CRITICAL - 2025-05-14 03:48:01 --> ErrorException: Undefined array key "die_spot_process"
+[Method: GET, Route: ccf/edit/37]
+in APPPATH\Views\ccf\edit.php on line 656.
+ 1 APPPATH\Views\ccf\edit.php(656): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "die_spot_process"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\ccf\\edit.php', 656)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\ccf\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('ccf/edit', [], true)
+ 5 APPPATH\Controllers\Ccf.php(510): view('ccf/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccf->edit('37')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccf))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-05-14 03:56:10 --> ErrorException: Undefined array key "die_spot_process"
+[Method: GET, Route: ccf/edit/37]
+in APPPATH\Views\ccf\edit.php on line 656.
+ 1 APPPATH\Views\ccf\edit.php(656): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "die_spot_process"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\ccf\\edit.php', 656)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\ccf\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('ccf/edit', [], true)
+ 5 APPPATH\Controllers\Ccf.php(510): view('ccf/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccf->edit('37')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccf))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-05-14 08:45:37 --> ErrorException: Undefined variable $data
+[Method: GET, Route: ccf-master-standard-part]
+in APPPATH\Controllers\CcfMasterStandardPart.php on line 18.
+ 1 APPPATH\Controllers\CcfMasterStandardPart.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\CcfMasterStandardPart.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CcfMasterStandardPart->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CcfMasterStandardPart))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

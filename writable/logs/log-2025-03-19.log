@@ -1,0 +1,247 @@
+CRITICAL - 2025-03-19 07:55:19 --> ErrorException: Undefined array key "proses_input1"
+[Method: GET, Route: pps/edit/55]
+in APPPATH\Views\pps\edit.php on line 355.
+ 1 APPPATH\Views\pps\edit.php(355): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "proses_input1"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 355)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('55')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:35:23 --> ArgumentCountError: print_r() expects at least 1 argument, 0 given
+[Method: POST, Route: pps/update]
+in APPPATH\Controllers\Pps.php on line 1245.
+ 1 APPPATH\Controllers\Pps.php(1245): print_r()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->update('')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:37:59 --> ErrorException: Undefined variable $index
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 470.
+ 1 APPPATH\Views\pps\edit.php(470): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 470)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:38:04 --> ErrorException: Undefined variable $index
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 470.
+ 1 APPPATH\Views\pps\edit.php(470): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 470)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:38:08 --> ErrorException: Undefined variable $index
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 470.
+ 1 APPPATH\Views\pps\edit.php(470): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 470)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:38:31 --> ErrorException: Undefined variable $index
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 470.
+ 1 APPPATH\Views\pps\edit.php(470): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 470)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:38:35 --> ErrorException: Undefined variable $index
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 470.
+ 1 APPPATH\Views\pps\edit.php(470): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 470)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:46:57 --> ErrorException: Undefined variable $index
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 693.
+ 1 APPPATH\Views\pps\edit.php(693): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 693)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:47:16 --> ErrorException: Undefined variable $index
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 693.
+ 1 APPPATH\Views\pps\edit.php(693): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 693)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:47:17 --> ErrorException: Undefined variable $index
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 693.
+ 1 APPPATH\Views\pps\edit.php(693): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 693)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:47:17 --> ErrorException: Undefined variable $index
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 693.
+ 1 APPPATH\Views\pps\edit.php(693): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 693)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:47:17 --> ErrorException: Undefined variable $index
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 693.
+ 1 APPPATH\Views\pps\edit.php(693): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 693)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:47:17 --> ErrorException: Undefined variable $index
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 693.
+ 1 APPPATH\Views\pps\edit.php(693): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 693)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:47:17 --> ErrorException: Undefined variable $index
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 693.
+ 1 APPPATH\Views\pps\edit.php(693): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 693)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:47:20 --> ErrorException: Undefined variable $index
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 693.
+ 1 APPPATH\Views\pps\edit.php(693): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $index', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 693)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:48:58 --> ErrorException: Undefined variable $die
+[Method: GET, Route: pps/edit/56]
+in APPPATH\Views\pps\edit.php on line 1301.
+ 1 APPPATH\Views\pps\edit.php(1301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $die', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 1301)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1234): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('56')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-19 08:59:59 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\ActivityModel::sortBy
+[Method: GET, Route: actual-activity/create]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\ActualActivity.php(73): CodeIgniter\Model->__call('sortBy', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->create()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

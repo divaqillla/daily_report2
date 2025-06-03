@@ -1,0 +1,211 @@
+CRITICAL - 2025-03-08 15:44:09 --> ErrorException: Undefined variable $id
+[Method: GET, Route: pps/list-process-dies/10]
+in APPPATH\Views\pps\list_process_dcp.php on line 16.
+ 1 APPPATH\Views\pps\list_process_dcp.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\list_process_dcp.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\list_process_dcp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/list_process_dcp', [], true)
+ 5 APPPATH\Controllers\Pps.php(94): view('pps/list_process_dcp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->listProcessDies('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 15:45:02 --> ErrorException: Undefined variable $id
+[Method: GET, Route: pps/list-process-dies/10]
+in APPPATH\Views\pps\list_process_dcp.php on line 16.
+ 1 APPPATH\Views\pps\list_process_dcp.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\list_process_dcp.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\list_process_dcp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/list_process_dcp', [], true)
+ 5 APPPATH\Controllers\Pps.php(94): view('pps/list_process_dcp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->listProcessDies('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 15:45:53 --> ErrorException: Undefined variable $id
+[Method: GET, Route: pps/list-process-dies/10]
+in APPPATH\Views\pps\list_process_dcp.php on line 16.
+ 1 APPPATH\Views\pps\list_process_dcp.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\list_process_dcp.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\list_process_dcp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/list_process_dcp', [], true)
+ 5 APPPATH\Controllers\Pps.php(94): view('pps/list_process_dcp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->listProcessDies('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 15:45:55 --> ErrorException: Undefined variable $id
+[Method: GET, Route: pps/list-process-dies/10]
+in APPPATH\Views\pps\list_process_dcp.php on line 16.
+ 1 APPPATH\Views\pps\list_process_dcp.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\list_process_dcp.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\list_process_dcp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/list_process_dcp', [], true)
+ 5 APPPATH\Controllers\Pps.php(94): view('pps/list_process_dcp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->listProcessDies('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 15:45:57 --> ErrorException: Undefined variable $id
+[Method: GET, Route: pps/list-process-dies/10]
+in APPPATH\Views\pps\list_process_dcp.php on line 16.
+ 1 APPPATH\Views\pps\list_process_dcp.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\list_process_dcp.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\list_process_dcp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/list_process_dcp', [], true)
+ 5 APPPATH\Controllers\Pps.php(94): view('pps/list_process_dcp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->listProcessDies('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 15:47:05 --> ErrorException: Undefined variable $id
+[Method: GET, Route: pps/list-process-dies/10]
+in APPPATH\Views\pps\list_process_dcp.php on line 16.
+ 1 APPPATH\Views\pps\list_process_dcp.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\list_process_dcp.php', 16)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\list_process_dcp.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/list_process_dcp', [], true)
+ 5 APPPATH\Controllers\Pps.php(94): view('pps/list_process_dcp', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->listProcessDies('10')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 15:49:18 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: pps/list-process-dies/10]
+in APPPATH\Views\pps\list_process_dcp.php on line 16.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/list_process_dcp', [], true)
+ 4 APPPATH\Controllers\Pps.php(95): view('pps/list_process_dcp', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->listProcessDies('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 15:49:20 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: pps/list-process-dies/10]
+in APPPATH\Views\pps\list_process_dcp.php on line 16.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/list_process_dcp', [], true)
+ 4 APPPATH\Controllers\Pps.php(95): view('pps/list_process_dcp', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->listProcessDies('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 15:49:46 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: pps/list-process-dies/10]
+in APPPATH\Views\pps\list_process_dcp.php on line 16.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/list_process_dcp', [], true)
+ 4 APPPATH\Controllers\Pps.php(95): view('pps/list_process_dcp', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->listProcessDies('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 15:49:55 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: pps/list-process-dies/10]
+in APPPATH\Views\pps\list_process_dcp.php on line 16.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/list_process_dcp', [], true)
+ 4 APPPATH\Controllers\Pps.php(95): view('pps/list_process_dcp', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->listProcessDies('10')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 15:51:58 --> PhpOffice\PhpSpreadsheet\Reader\Exception: File "D:\Project Lintang\PROJEK\daily_report2\public\public/uploads/template/templateDCP.xlsx" does not exist.
+[Method: GET, Route: dcp-excel/10]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 147.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(133): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx', null)
+ 3 APPPATH\Controllers\Dcp.php(587): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('10')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 16:03:18 --> PhpOffice\PhpSpreadsheet\Reader\Exception: File "D:\Project Lintang\PROJEK\daily_report2\public\public/uploads/template/templateDCP.xlsx" does not exist.
+[Method: GET, Route: dcp-excel/10]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 147.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(133): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx', null)
+ 3 APPPATH\Controllers\Dcp.php(587): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('10')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 16:03:43 --> PhpOffice\PhpSpreadsheet\Reader\Exception: File "D:\Project Lintang\PROJEK\daily_report2\public\public/uploads/template/templateDCP.xlsx" does not exist.
+[Method: GET, Route: dcp-excel/10]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 147.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(133): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx', null)
+ 3 APPPATH\Controllers\Dcp.php(587): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('10')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 16:04:52 --> PhpOffice\PhpSpreadsheet\Reader\Exception: File "D:\Project Lintang\PROJEK\daily_report2\public\public/uploads/template/templateDCP.xlsx" does not exist.
+[Method: GET, Route: dcp-excel/10]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 147.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(133): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx', null)
+ 3 APPPATH\Controllers\Dcp.php(587): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('10')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-08 16:07:13 --> PhpOffice\PhpSpreadsheet\Reader\Exception: File "D:\Project Lintang\PROJEK\daily_report2\public\public/uploads/template/templateDCP.xlsx" does not exist.
+[Method: GET, Route: dcp-excel/10]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 147.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(133): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx', null)
+ 3 APPPATH\Controllers\Dcp.php(587): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\public/uploads/template/templateDCP.xlsx')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('10')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

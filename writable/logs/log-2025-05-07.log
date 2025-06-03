@@ -1,0 +1,122 @@
+CRITICAL - 2025-05-07 08:03:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "ccf/master_main_material/index.php"
+[Method: GET, Route: ccf-master-main-material]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ccf/master_main_material/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('ccf/master_main_material/index', [], true)
+ 3 APPPATH\Controllers\CcfMasterMainMaterial.php(19): view('ccf/master_main_material/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CcfMasterMainMaterial->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CcfMasterMainMaterial))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-05-07 08:04:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "ccf/master_main_material/index.php"
+[Method: GET, Route: ccf-master-main-material]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ccf/master_main_material/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('ccf/master_main_material/index', [], true)
+ 3 APPPATH\Controllers\CcfMasterMainMaterial.php(19): view('ccf/master_main_material/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CcfMasterMainMaterial->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CcfMasterMainMaterial))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-05-07 08:04:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "ccf/master_main_material/index.php"
+[Method: GET, Route: ccf-master-main-material]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ccf/master_main_material/index.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('ccf/master_main_material/index', [], true)
+ 3 APPPATH\Controllers\CcfMasterMainMaterial.php(19): view('ccf/master_main_material/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CcfMasterMainMaterial->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CcfMasterMainMaterial))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-05-07 08:28:25 --> PhpOffice\PhpSpreadsheet\Reader\Exception: File "D:\Project Lintang\PROJEK\daily_report2\public\uploads/template/templateCcf.xlsx" does not exist.
+[Method: GET, Route: ccf/export/21]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 147.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(143): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/template/templateCcf.xlsx')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(112): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/template/templateCcf.xlsx', null)
+ 3 APPPATH\Controllers\Ccf.php(703): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/template/templateCcf.xlsx')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccf->generateExcel('21')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccf))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-05-07 08:28:51 --> mysqli_sql_exception: Unknown column 'pps_id' in 'where clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Ccf.php(709): CodeIgniter\BaseModel->first()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Ccf->generateExcel('21')
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccf))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-05-07 08:28:51 --> Error: Call to a member function getFirstRow() on bool
+[Method: GET, Route: ccf/export/21]
+in SYSTEMPATH\Model.php on line 330.
+ 1 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Ccf.php(709): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccf->generateExcel('21')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccf))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-05-07 08:38:52 --> ErrorException: Undefined array key "cust"
+[Method: GET, Route: ccf/export/21]
+in APPPATH\Controllers\Ccf.php on line 725.
+ 1 APPPATH\Controllers\Ccf.php(725): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cust"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Ccf.php', 725)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccf->generateExcel('21')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccf))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-05-07 10:01:56 --> Error: Call to a member function setTitle() on null
+[Method: GET, Route: ccf/export/22]
+in APPPATH\Controllers\Ccf.php on line 721.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccf->generateExcel('22')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccf))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-05-07 10:02:37 --> Error: Call to a member function setTitle() on null
+[Method: GET, Route: ccf/export/22]
+in APPPATH\Controllers\Ccf.php on line 721.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccf->generateExcel('22')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccf))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-05-07 10:03:06 --> Error: Call to a member function setTitle() on null
+[Method: GET, Route: ccf/export/22]
+in APPPATH\Controllers\Ccf.php on line 721.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Ccf->generateExcel('22')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ccf))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

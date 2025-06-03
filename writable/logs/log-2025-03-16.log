@@ -1,0 +1,60 @@
+CRITICAL - 2025-03-16 16:43:41 --> ErrorException: Undefined array key "x`"
+[Method: GET, Route: pps/edit/55]
+in APPPATH\Views\pps\edit.php on line 830.
+ 1 APPPATH\Views\pps\edit.php(830): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "x`"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 830)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1222): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('55')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-16 17:44:07 --> ParseError: syntax error, unexpected token "public"
+[Method: POST, Route: pps/update]
+in APPPATH\Controllers\Pps.php on line 1078.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pps')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pps')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Pps', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-16 17:47:47 --> ErrorException: Undefined array key "total_dies"
+[Method: GET, Route: pps/generate/55]
+in APPPATH\Controllers\Pps.php on line 2202.
+ 1 APPPATH\Controllers\Pps.php(2202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_dies"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 2202)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->generateExcel('55')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-16 17:50:18 --> ErrorException: Undefined array key "total_dies"
+[Method: GET, Route: pps/generate/55]
+in APPPATH\Controllers\Pps.php on line 2202.
+ 1 APPPATH\Controllers\Pps.php(2202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_dies"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 2202)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->generateExcel('55')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-16 17:54:27 --> Error: Class "App\Models\DcpPolyModel" not found
+[Method: GET, Route: dcp/create/201]
+in APPPATH\Controllers\Dcp.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Dcp->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

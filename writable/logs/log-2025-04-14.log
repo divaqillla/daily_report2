@@ -1,0 +1,235 @@
+CRITICAL - 2025-04-14 01:34:40 --> ErrorException: Undefined array key 0
+[Method: GET, Route: dcp/create/299]
+in APPPATH\Views\dcp\create.php on line 727.
+ 1 APPPATH\Views\dcp\create.php(727): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php', 727)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/create', [], true)
+ 5 APPPATH\Controllers\Dcp.php(355): view('dcp/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('299')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 01:35:22 --> ErrorException: Undefined array key 0
+[Method: GET, Route: dcp/create/299]
+in APPPATH\Views\dcp\create.php on line 727.
+ 1 APPPATH\Views\dcp\create.php(727): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php', 727)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/create', [], true)
+ 5 APPPATH\Controllers\Dcp.php(355): view('dcp/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('299')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 01:40:25 --> ErrorException: Undefined array key 0
+[Method: GET, Route: dcp/create/299]
+in APPPATH\Views\dcp\create.php on line 727.
+ 1 APPPATH\Views\dcp\create.php(727): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php', 727)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/create', [], true)
+ 5 APPPATH\Controllers\Dcp.php(355): view('dcp/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('299')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 01:40:26 --> ErrorException: Undefined array key 0
+[Method: GET, Route: dcp/create/299]
+in APPPATH\Views\dcp\create.php on line 727.
+ 1 APPPATH\Views\dcp\create.php(727): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php', 727)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/create', [], true)
+ 5 APPPATH\Controllers\Dcp.php(355): view('dcp/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('299')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 01:40:26 --> ErrorException: Undefined array key 0
+[Method: GET, Route: dcp/create/299]
+in APPPATH\Views\dcp\create.php on line 727.
+ 1 APPPATH\Views\dcp\create.php(727): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php', 727)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/create', [], true)
+ 5 APPPATH\Controllers\Dcp.php(355): view('dcp/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('299')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 01:44:04 --> ErrorException: Undefined array key 0
+[Method: GET, Route: dcp/create/299]
+in APPPATH\Views\dcp\create.php on line 727.
+ 1 APPPATH\Views\dcp\create.php(727): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php', 727)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/create', [], true)
+ 5 APPPATH\Controllers\Dcp.php(355): view('dcp/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('299')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 01:45:11 --> ErrorException: Undefined array key 0
+[Method: GET, Route: dcp/create/299]
+in APPPATH\Views\dcp\create.php on line 727.
+ 1 APPPATH\Views\dcp\create.php(727): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php', 727)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/create', [], true)
+ 5 APPPATH\Controllers\Dcp.php(355): view('dcp/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('299')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 01:47:03 --> ErrorException: Undefined array key 0
+[Method: GET, Route: dcp/create/299]
+in APPPATH\Views\dcp\create.php on line 727.
+ 1 APPPATH\Views\dcp\create.php(727): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php', 727)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/create', [], true)
+ 5 APPPATH\Controllers\Dcp.php(355): view('dcp/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('299')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 01:48:21 --> ErrorException: Undefined array key 0
+[Method: GET, Route: dcp/create/299]
+in APPPATH\Views\dcp\create.php on line 727.
+ 1 APPPATH\Views\dcp\create.php(727): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php', 727)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/create', [], true)
+ 5 APPPATH\Controllers\Dcp.php(355): view('dcp/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('299')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 01:51:05 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: dcp/create/299]
+in APPPATH\Controllers\Dcp.php on line 220.
+ 1 APPPATH\Controllers\Dcp.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 220)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('299')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 01:51:29 --> ErrorException: Undefined variable $row
+[Method: GET, Route: dcp/create/299]
+in APPPATH\Controllers\Dcp.php on line 220.
+ 1 APPPATH\Controllers\Dcp.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 220)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('299')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 01:51:35 --> ErrorException: Undefined array key 0
+[Method: GET, Route: dcp/create/299]
+in APPPATH\Views\dcp\create.php on line 727.
+ 1 APPPATH\Views\dcp\create.php(727): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 0', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php', 727)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/create', [], true)
+ 5 APPPATH\Controllers\Dcp.php(357): view('dcp/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('299')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 06:55:21 --> PhpOffice\PhpSpreadsheet\Exception: File D:\Project Lintang\PROJEK\daily_report2\public\uploads/dcp/ not found!
+[Method: GET, Route: dcp-excel/69]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Drawing.php on line 161.
+ 1 APPPATH\Controllers\Dcp.php(1205): PhpOffice\PhpSpreadsheet\Worksheet\Drawing->setPath('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/dcp/')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('69')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 06:57:56 --> PhpOffice\PhpSpreadsheet\Exception: Invalid cell coordinate H-3
+[Method: GET, Route: pps/generate/63]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php on line 44.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(56): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('H-3')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1267): PhpOffice\PhpSpreadsheet\Cell\Coordinate::indexesFromString('H-3')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1181): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('H-3')
+ 4 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\BaseDrawing.php(204): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H-3')
+ 5 APPPATH\Controllers\Pps.php(2658): PhpOffice\PhpSpreadsheet\Worksheet\BaseDrawing->setWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->generateExcel('63')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 07:00:35 --> PhpOffice\PhpSpreadsheet\Exception: Invalid cell coordinate H-3
+[Method: GET, Route: pps/generate/63]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php on line 44.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Coordinate.php(56): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('H-3')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1267): PhpOffice\PhpSpreadsheet\Cell\Coordinate::indexesFromString('H-3')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1181): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('H-3')
+ 4 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\BaseDrawing.php(204): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('H-3')
+ 5 APPPATH\Controllers\Pps.php(2658): PhpOffice\PhpSpreadsheet\Worksheet\BaseDrawing->setWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet))
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->generateExcel('63')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 07:00:43 --> PhpOffice\PhpSpreadsheet\Exception: File D:\Project Lintang\PROJEK\daily_report2\public\uploads/dcp/ not found!
+[Method: GET, Route: dcp-excel/69]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Drawing.php on line 161.
+ 1 APPPATH\Controllers\Dcp.php(1205): PhpOffice\PhpSpreadsheet\Worksheet\Drawing->setPath('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/dcp/')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('69')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-14 07:58:42 --> PhpOffice\PhpSpreadsheet\Exception: File D:\Project Lintang\PROJEK\daily_report2\public\uploads/dcp/ not found!
+[Method: GET, Route: dcp-excel/69]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Drawing.php on line 161.
+ 1 APPPATH\Controllers\Dcp.php(1205): PhpOffice\PhpSpreadsheet\Worksheet\Drawing->setPath('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/dcp/')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('69')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

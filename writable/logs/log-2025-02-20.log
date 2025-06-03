@@ -1,0 +1,444 @@
+CRITICAL - 2025-02-20 03:47:14 --> Error: Class "App\Models\OutdoorActivityModel" not found
+[Method: GET, Route: outdoor-activity]
+in APPPATH\Controllers\OutdoorActivity.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\OutdoorActivity->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-20 03:47:46 --> mysqli_sql_exception: Table 'daily_report.outdoor_activities' doesn't exist in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `outdoor...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `outdoor...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `outdoor...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `outdoor...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(23): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-20 03:47:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'daily_report.outdoor_activities' doesn't exist
+[Method: GET, Route: outdoor-activity]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `outdoor_activities`.*, `users`.`nama`, `users`.`nik`, `users`.`group`
+FROM `outdoor_activities`
+LEFT JOIN `users` ON `users`.`id` = `outdoor_activities`.`user_id`', [], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 03:47:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'daily_report.outdoor_activities' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `outdoor_activities`.*, `users`.`nama`, `users`.`nik`, `users`.`group`
+FROM `outdoor_activities`
+LEFT JOIN `users` ON `users`.`id` = `outdoor_activities`.`user_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `outdoor_activities`.*, `users`.`nama`, `users`.`nik`, `users`.`group`
+FROM `outdoor_activities`
+LEFT JOIN `users` ON `users`.`id` = `outdoor_activities`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `outdoor_activities`.*, `users`.`nama`, `users`.`nik`, `users`.`group`
+FROM `outdoor_activities`
+LEFT JOIN `users` ON `users`.`id` = `outdoor_activities`.`user_id`', [], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 03:47:46 --> [Caused by] mysqli_sql_exception: Table 'daily_report.outdoor_activities' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `outdoor_activities`.*, `users`.`nama`, `users`.`nik`, `users`.`group`
+FROM `outdoor_activities`
+LEFT JOIN `users` ON `users`.`id` = `outdoor_activities`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `outdoor_activities`.*, `users`.`nama`, `users`.`nik`, `users`.`group`
+FROM `outdoor_activities`
+LEFT JOIN `users` ON `users`.`id` = `outdoor_activities`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `outdoor_activities`.*, `users`.`nama`, `users`.`nik`, `users`.`group`
+FROM `outdoor_activities`
+LEFT JOIN `users` ON `users`.`id` = `outdoor_activities`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `outdoor_activities`.*, `users`.`nama`, `users`.`nik`, `users`.`group`
+FROM `outdoor_activities`
+LEFT JOIN `users` ON `users`.`id` = `outdoor_activities`.`user_id`', [], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(23): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 04:00:49 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: outdoor-activity/edit/11]
+in APPPATH\Views\outdoor_activity\edit.php on line 32.
+ 1 APPPATH\Views\outdoor_activity\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\edit.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/edit', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(61): view('outdoor_activity/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->edit('11')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 04:02:32 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: outdoor-activity/edit/12]
+in APPPATH\Views\outdoor_activity\edit.php on line 32.
+ 1 APPPATH\Views\outdoor_activity\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\edit.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/edit', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(61): view('outdoor_activity/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->edit('12')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 04:02:45 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: outdoor-activity/edit/12]
+in APPPATH\Views\outdoor_activity\edit.php on line 32.
+ 1 APPPATH\Views\outdoor_activity\edit.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\edit.php', 32)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/edit', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(61): view('outdoor_activity/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->edit('12')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 04:05:39 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: outdoor-activity/edit/8]
+in APPPATH\Views\outdoor_activity\edit.php on line 32.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\OutdoorActivity.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\OutdoorActivity')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\OutdoorActivity')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\OutdoorActivity', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 04:11:14 --> ParseError: syntax error, unexpected token "{", expecting "function" or "const"
+[Method: GET, Route: outdoor-activity]
+in APPPATH\Controllers\OutdoorActivity.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\OutdoorActivity.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\OutdoorActivity')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\OutdoorActivity')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\OutdoorActivity', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 04:30:16 --> ErrorException: Undefined array key "keterangan"
+[Method: GET, Route: outdoor-activity]
+in APPPATH\Views\outdoor_activity\index.php on line 54.
+ 1 APPPATH\Views\outdoor_activity\index.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "keterangan"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\index.php', 54)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/index', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(35): view('outdoor_activity/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 04:33:19 --> Error: Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+[Method: GET, Route: outdoor-activity]
+in APPPATH\Controllers\OutdoorActivity.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 04:33:37 --> Error: Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+[Method: GET, Route: outdoor-activity]
+in APPPATH\Controllers\OutdoorActivity.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 04:34:04 --> Error: Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+[Method: GET, Route: outdoor-activity]
+in APPPATH\Controllers\OutdoorActivity.php on line 22.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-20 05:22:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '!=
+ORDER BY `users`.`group`' at line 5 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`....', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(33): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-20 05:22:09 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '!=
+ORDER BY `users`.`group`' at line 5
+[Method: GET, Route: outdoor-activity]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, `outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group = :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 05:22:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '!=
+ORDER BY `users`.`group`' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*, `outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group = !=
+ORDER BY `users`.`group`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*, `outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group = !=
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, `outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group = :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 05:22:09 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '!=
+ORDER BY `users`.`group`' at line 5
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`.*, `outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group = !=
+ORDER BY `users`.`group`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.*, `outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group = !=
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.*, `outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group = !=
+ORDER BY `users`.`group`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.*, `outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group = :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(33): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 05:30:10 --> ErrorException: Undefined variable $percentageHadir
+[Method: GET, Route: outdoor-activity]
+in APPPATH\Views\outdoor_activity\index.php on line 17.
+ 1 APPPATH\Views\outdoor_activity\index.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $percentageHadir', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\index.php', 17)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/index', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(54): view('outdoor_activity/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 05:50:34 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: outdoor-activity]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\outdoor_activity\index.php(151): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/index', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(54): view('outdoor_activity/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 05:50:44 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: outdoor-activity]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\outdoor_activity\index.php(151): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/index', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(54): view('outdoor_activity/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 05:50:48 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: outdoor-activity]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\outdoor_activity\index.php(151): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/index', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(54): view('outdoor_activity/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 08:18:03 --> ErrorException: Undefined variable $percentageHadir
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 220.
+ 1 APPPATH\Views\outdoor_activity\display.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $percentageHadir', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 220)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(92): view('outdoor_activity/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 08:18:10 --> ErrorException: Undefined variable $percentageHadir
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 220.
+ 1 APPPATH\Views\outdoor_activity\display.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $percentageHadir', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 220)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(92): view('outdoor_activity/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 08:18:29 --> ErrorException: Undefined variable $percentageHadir
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 220.
+ 1 APPPATH\Views\outdoor_activity\display.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $percentageHadir', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 220)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(92): view('outdoor_activity/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 08:19:10 --> ErrorException: Undefined variable $percentageHadir
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 220.
+ 1 APPPATH\Views\outdoor_activity\display.php(220): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $percentageHadir', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 220)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(92): view('outdoor_activity/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 08:28:14 --> ErrorException: Undefined variable $percentageHadir
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 96.
+ 1 APPPATH\Views\outdoor_activity\display.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $percentageHadir', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 96)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(92): view('outdoor_activity/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-20 08:34:35 --> ErrorException: Array to string conversion
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 178.
+ 1 APPPATH\Views\outdoor_activity\display.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 178)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(92): view('outdoor_activity/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

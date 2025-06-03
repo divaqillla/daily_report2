@@ -1,0 +1,82 @@
+CRITICAL - 2025-03-17 01:50:54 --> ErrorException: Undefined variable $finishingData3
+[Method: POST, Route: dcp/update/106]
+in APPPATH\Controllers\Dcp.php on line 734.
+ 1 APPPATH\Controllers\Dcp.php(734): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $finishingData3', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 734)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->update('106')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-17 02:02:39 --> ErrorException: Undefined variable $finishingData2
+[Method: POST, Route: dcp/update/106]
+in APPPATH\Controllers\Dcp.php on line 710.
+ 1 APPPATH\Controllers\Dcp.php(710): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $finishingData2', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 710)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->update('106')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-17 03:42:04 --> ParseError: syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+[Method: GET, Route: dcp/edit/106]
+in APPPATH\Views\dcp\edit.php on line 1199.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/edit', [], true)
+ 3 APPPATH\Controllers\Dcp.php(609): view('dcp/edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->edit('106')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-17 04:14:23 --> ErrorException: Undefined variable $die_spot_process
+[Method: GET, Route: dcp/edit/106]
+in APPPATH\Views\dcp\edit.php on line 836.
+ 1 APPPATH\Views\dcp\edit.php(836): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $die_spot_process', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\edit.php', 836)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/edit', [], true)
+ 5 APPPATH\Controllers\Dcp.php(609): view('dcp/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->edit('106')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-17 14:12:21 --> ErrorException: Undefined array key "finishing_kom"
+[Method: GET, Route: dcp-excel/55]
+in APPPATH\Controllers\Dcp.php on line 1140.
+ 1 APPPATH\Controllers\Dcp.php(1140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "finishing_kom"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 1140)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('55')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-17 14:27:01 --> TypeError: Cannot access offset of type string on string
+[Method: GET, Route: dcp-excel/55]
+in APPPATH\Controllers\Dcp.php on line 1152.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('55')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-17 14:29:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: dcp-excel/55]
+in APPPATH\Controllers\Dcp.php on line 1152.
+ 1 APPPATH\Controllers\Dcp.php(1152): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 1152)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('55')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

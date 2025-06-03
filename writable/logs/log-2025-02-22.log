@@ -1,0 +1,1143 @@
+ERROR - 2025-02-22 02:32:08 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(203): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-22 02:32:08 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(203): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 02:32:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(203): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 02:32:08 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(203): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-22 02:33:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(203): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-22 02:33:21 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(203): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 02:33:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(203): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 02:33:21 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(203): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-22 02:33:22 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(203): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-22 02:33:22 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(203): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 02:33:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(203): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 02:33:22 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(203): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-22 02:35:05 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(213): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-22 02:35:05 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(213): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 02:35:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(213): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 02:35:05 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(213): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-22 02:35:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(213): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-22 02:35:06 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(213): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 02:35:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(213): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 02:35:06 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(213): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-22 02:35:06 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(213): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-22 02:35:06 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(213): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 02:35:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(213): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 02:35:06 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+OR DAYOFWEEK(created_at) IN (1,7)
+ )' at line 7
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= \'2025-02-17\'
+AND DATE(created_at) <= \'2025-02-23\'
+AND `kehadiran` IN (1)
+AND   (
+DATE(created_at) IN ()
+OR DAYOFWEEK(created_at) IN (1,7)
+ )')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `outdoor_activities`
+WHERE DATE(created_at) >= :DATE(created_at):
+AND DATE(created_at) <= :DATE(created_at).1:
+AND `kehadiran` IN :kehadiran:
+AND   (
+DATE(created_at) IN :DATE(created_at).2:
+OR DAYOFWEEK(created_at) IN (1,7)
+ )', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(213): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:49:28 --> Error: Class "App\Controllers\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:49:43 --> Error: Class "App\Controllers\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 44.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:50:30 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:50:41 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:50:46 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:50:56 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:52:30 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:52:41 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:53:39 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:54:02 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:54:39 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:54:39 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:54:40 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:55:08 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:55:14 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:55:39 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:57:31 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 04:59:41 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 05:01:24 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 05:02:51 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 05:02:57 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 05:03:33 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 05:06:35 --> Error: Class "App\Models\CuttingToolModel" not found
+[Method: POST, Route: upload-excel]
+in APPPATH\Controllers\ExcelController.php on line 42.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 09:16:56 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ExcelController.php on line 58
+[Method: POST, Route: upload-excel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1008.
+ 1 APPPATH\Controllers\ExcelController.php(58): CodeIgniter\Database\BaseBuilder->like('process', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 09:17:05 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ExcelController.php on line 58
+[Method: POST, Route: upload-excel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1008.
+ 1 APPPATH\Controllers\ExcelController.php(58): CodeIgniter\Database\BaseBuilder->like('process', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 09:31:39 --> ErrorException: simplexml_load_string(): namespace error : Namespace prefix r for embed on blip is not defined
+[Method: POST, Route: upload-excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'simplexml_load_string(): namespace error : Namespace prefix r for embed on blip is not defined', 'D:\\Project Lintang\\PROJEK\\daily_report2\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Reader\\Xlsx.php', 137)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(137): simplexml_load_string('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xdr:wsDr xmlns:xdr="http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>2</xdr:col><xdr:colOff>0</xdr:colOff><xdr:row>0</xdr:row><xdr:rowOff>104775</xdr:rowOff></xdr:from><xdr:to><xdr:col>3</xdr:col><xdr:colOff>2238375</xdr:colOff><xdr:row>3</xdr:row><xdr:rowOff>38100</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="1" name="Picture 3" descr="logoservlet"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId1"/><a:stretch><a:fillRect/></a:stretch></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="2590800" cy="504825"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>495300</xdr:colOff><xdr:row>150</xdr:row><xdr:rowOff>38100</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1266825</xdr:colOff><xdr:row>153</xdr:row><xdr:rowOff>171450</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="2" name="Picture 3" descr="IMG-20150108-WA0011.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId2"/><a:srcRect l="18492" t="16296" r="61601" b="51482"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="771525" cy="704850"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>495300</xdr:colOff><xdr:row>154</xdr:row><xdr:rowOff>19050</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1247775</xdr:colOff><xdr:row>157</xdr:row><xdr:rowOff>171450</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="3" name="Picture 4" descr="IMG-20150108-WA0019.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId3"/><a:srcRect l="73510" t="42131" r="11469" b="37559"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="752475" cy="723900"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>457200</xdr:colOff><xdr:row>162</xdr:row><xdr:rowOff>38100</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1238250</xdr:colOff><xdr:row>165</xdr:row><xdr:rowOff>142875</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="4" name="Picture 5" descr="IMG-20150108-WA0019.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId4"/><a:srcRect l="44477" t="53120" r="11337" b="8202"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="781050" cy="676275"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>438150</xdr:colOff><xdr:row>166</xdr:row><xdr:rowOff>66675</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1228725</xdr:colOff><xdr:row>169</xdr:row><xdr:rowOff>161925</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="5" name="Picture 6" descr="IMG-20150108-WA0011.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId5"/><a:srcRect l="31646" t="67910" r="38764" b="8566"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="790575" cy="666750"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>409575</xdr:colOff><xdr:row>170</xdr:row><xdr:rowOff>57150</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1228725</xdr:colOff><xdr:row>173</xdr:row><xdr:rowOff>171450</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="6" name="Picture 7" descr="IMG-20150108-WA0019.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId6"/><a:srcRect l="72567" t="37737" r="2166" b="30981"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="819150" cy="685800"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>419100</xdr:colOff><xdr:row>174</xdr:row><xdr:rowOff>47625</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1209675</xdr:colOff><xdr:row>177</xdr:row><xdr:rowOff>161925</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="7" name="Picture 8" descr="IMG-20150108-WA0011.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId7"/><a:srcRect l="13136" t="15266" r="72986" b="68534"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="781050" cy="685800"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>361950</xdr:colOff><xdr:row>178</xdr:row><xdr:rowOff>95250</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1295400</xdr:colOff><xdr:row>181</xdr:row><xdr:rowOff>104775</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="8" name="Picture 9" descr="IMG-20150108-WA0011.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId8"/><a:srcRect l="10218" t="55891" r="69612" b="27294"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="933450" cy="581025"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>923925</xdr:colOff><xdr:row>182</xdr:row><xdr:rowOff>66675</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1628775</xdr:colOff><xdr:row>185</xdr:row><xdr:rowOff>114300</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="9" name="Picture 10" descr="2015-01-09 11.49.14.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId9"/><a:srcRect l="72613" t="49686" r="3991" b="22641"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="704850" cy="628650"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>95250</xdr:colOff><xdr:row>182</xdr:row><xdr:rowOff>57150</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>733425</xdr:colOff><xdr:row>185</xdr:row><xdr:rowOff>123825</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="10" name="Picture 11" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId10"/><a:srcRect l="67273" t="53044" r="6545" b="11400"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="638175" cy="647700"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>466725</xdr:colOff><xdr:row>186</xdr:row><xdr:rowOff>28575</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1228725</xdr:colOff><xdr:row>189</xdr:row><xdr:rowOff>114300</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="11" name="Picture 12" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId11"/><a:srcRect l="64063" t="29700" r="1562" b="30717"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="762000" cy="657225"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>476250</xdr:colOff><xdr:row>190</xdr:row><xdr:rowOff>76200</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1238250</xdr:colOff><xdr:row>193</xdr:row><xdr:rowOff>161925</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="12" name="Picture 13" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId12"/><a:srcRect l="64063" t="29700" r="1562" b="30717"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="762000" cy="657225"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>447675</xdr:colOff><xdr:row>158</xdr:row><xdr:rowOff>57150</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1323975</xdr:colOff><xdr:row>161</xdr:row><xdr:rowOff>161925</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="13" name="Picture 14" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId13"/><a:srcRect l="78694" t="40043" r="4171" b="27446"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="16200000"><a:ext cx="676275" cy="876300"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>66675</xdr:colOff><xdr:row>195</xdr:row><xdr:rowOff>0</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1695450</xdr:colOff><xdr:row>196</xdr:row><xdr:rowOff>161925</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="14" name="Picture 15" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId14"/><a:srcRect l="4460" t="33355" r="3494" b="28562"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="1628775" cy="352425"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>10</xdr:col><xdr:colOff>361950</xdr:colOff><xdr:row>188</xdr:row><xdr:rowOff>123825</xdr:rowOff></xdr:from><xdr:to><xdr:col>17</xdr:col><xdr:colOff>104775</xdr:colOff><xdr:row>215</xdr:row><xdr:rowOff>142875</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="15" name="Picture 16" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId15"/><a:stretch><a:fillRect/></a:stretch></xdr:blipFill><xdr:spPr><a:xfrm rot="1800000"><a:ext cx="6886575" cy="5172075"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>85725</xdr:colOff><xdr:row>199</xdr:row><xdr:rowOff>9525</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1647825</xdr:colOff><xdr:row>200</xdr:row><xdr:rowOff>180975</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="16" name="Picture 17" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId16"/><a:srcRect l="2273" t="15902" r="6752" b="26453"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="1562100" cy="352425"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"><mc:Choice xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" Requires="a14"><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>16</xdr:col><xdr:colOff>85725</xdr:colOff><xdr:row>39</xdr:row><xdr:rowOff>57150</xdr:rowOff></xdr:from><xdr:to><xdr:col>28</xdr:col><xdr:colOff>638175</xdr:colOff><xdr:row>99</xdr:row><xdr:rowOff>152400</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="19" name="Picture 1"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1" noChangeArrowheads="1"/><a:extLst><a:ext uri="{84589F7E-364E-4C9E-8A38-B11213B215E9}"><a14:cameraTool cellRange="$C$148:$F$202" spid="_x0000_s2053"/></a:ext></a:extLst></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip r:embed="rId15"/><a:srcRect/><a:stretch><a:fillRect/></a:stretch></xdr:blipFill><xdr:spPr><a:xfrm><a:off x="17706975" y="7734300"/><a:ext cx="7239000" cy="11563350"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="FFFFFF" mc:Ignorable="a14" a14:legacySpreadsheetColorIndex="9"/></a:solidFill><a:ln w="9525"><a:solidFill><a:srgbClr xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="000000" mc:Ignorable="a14" a14:legacySpreadsheetColorIndex="64"/></a:solidFill><a:miter lim="800000"/><a:headEnd/><a:tailEnd/></a:ln></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor></mc:Choice><mc:Fallback/></mc:AlternateContent></xdr:wsDr>', 'SimpleXMLElement', 0, '')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(1431): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadZipNonamespace('xl/drawings/drawing4.xml', '')
+ 4 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\BaseReader.php(197): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('C:\\xampp\\tmp\\php67C9.tmp')
+ 5 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(106): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('C:\\xampp\\tmp\\php67C9.tmp', 0)
+ 6 APPPATH\Controllers\ExcelController.php(30): PhpOffice\PhpSpreadsheet\IOFactory::load('C:\\xampp\\tmp\\php67C9.tmp')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 09:31:56 --> PhpOffice\PhpSpreadsheet\Reader\Exception: Unable to identify a reader for this file
+[Method: POST, Route: upload-excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php on line 168.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('C:\\xampp\\tmp\\phpB667.tmp', null)
+ 2 APPPATH\Controllers\ExcelController.php(30): PhpOffice\PhpSpreadsheet\IOFactory::load('C:\\xampp\\tmp\\phpB667.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 09:32:24 --> PhpOffice\PhpSpreadsheet\Reader\Exception: Unable to identify a reader for this file
+[Method: POST, Route: upload-excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php on line 168.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('C:\\xampp\\tmp\\php2511.tmp', null)
+ 2 APPPATH\Controllers\ExcelController.php(30): PhpOffice\PhpSpreadsheet\IOFactory::load('C:\\xampp\\tmp\\php2511.tmp')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 09:32:46 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ExcelController.php on line 58
+[Method: POST, Route: upload-excel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1008.
+ 1 APPPATH\Controllers\ExcelController.php(58): CodeIgniter\Database\BaseBuilder->like('process', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 09:33:19 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ExcelController.php on line 58
+[Method: POST, Route: upload-excel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1008.
+ 1 APPPATH\Controllers\ExcelController.php(58): CodeIgniter\Database\BaseBuilder->like('process', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 09:33:31 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ExcelController.php on line 58
+[Method: POST, Route: upload-excel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1008.
+ 1 APPPATH\Controllers\ExcelController.php(58): CodeIgniter\Database\BaseBuilder->like('process', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 09:33:43 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ExcelController.php on line 58
+[Method: POST, Route: upload-excel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1008.
+ 1 APPPATH\Controllers\ExcelController.php(58): CodeIgniter\Database\BaseBuilder->like('process', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 09:34:36 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ExcelController.php on line 58
+[Method: POST, Route: upload-excel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1008.
+ 1 APPPATH\Controllers\ExcelController.php(58): CodeIgniter\Database\BaseBuilder->like('process', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 09:35:12 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ExcelController.php on line 58
+[Method: POST, Route: upload-excel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1008.
+ 1 APPPATH\Controllers\ExcelController.php(58): CodeIgniter\Database\BaseBuilder->like('process', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 09:35:52 --> TypeError: CodeIgniter\Database\BaseBuilder::like(): Argument #2 ($match) must be of type string, null given, called in D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ExcelController.php on line 58
+[Method: POST, Route: upload-excel]
+in SYSTEMPATH\Database\BaseBuilder.php on line 1008.
+ 1 APPPATH\Controllers\ExcelController.php(58): CodeIgniter\Database\BaseBuilder->like('process', null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-22 09:36:29 --> ErrorException: simplexml_load_string(): namespace error : Namespace prefix r for embed on blip is not defined
+[Method: POST, Route: upload-excel]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'simplexml_load_string(): namespace error : Namespace prefix r for embed on blip is not defined', 'D:\\Project Lintang\\PROJEK\\daily_report2\\vendor\\phpoffice\\phpspreadsheet\\src\\PhpSpreadsheet\\Reader\\Xlsx.php', 137)
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(137): simplexml_load_string('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xdr:wsDr xmlns:xdr="http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing" xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main"><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>2</xdr:col><xdr:colOff>0</xdr:colOff><xdr:row>0</xdr:row><xdr:rowOff>104775</xdr:rowOff></xdr:from><xdr:to><xdr:col>3</xdr:col><xdr:colOff>2238375</xdr:colOff><xdr:row>3</xdr:row><xdr:rowOff>38100</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="1" name="Picture 3" descr="logoservlet"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId1"/><a:stretch><a:fillRect/></a:stretch></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="2590800" cy="504825"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>495300</xdr:colOff><xdr:row>150</xdr:row><xdr:rowOff>38100</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1266825</xdr:colOff><xdr:row>153</xdr:row><xdr:rowOff>171450</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="2" name="Picture 3" descr="IMG-20150108-WA0011.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId2"/><a:srcRect l="18492" t="16296" r="61601" b="51482"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="771525" cy="704850"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>495300</xdr:colOff><xdr:row>154</xdr:row><xdr:rowOff>19050</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1247775</xdr:colOff><xdr:row>157</xdr:row><xdr:rowOff>171450</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="3" name="Picture 4" descr="IMG-20150108-WA0019.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId3"/><a:srcRect l="73510" t="42131" r="11469" b="37559"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="752475" cy="723900"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>457200</xdr:colOff><xdr:row>162</xdr:row><xdr:rowOff>38100</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1238250</xdr:colOff><xdr:row>165</xdr:row><xdr:rowOff>142875</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="4" name="Picture 5" descr="IMG-20150108-WA0019.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId4"/><a:srcRect l="44477" t="53120" r="11337" b="8202"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="781050" cy="676275"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>438150</xdr:colOff><xdr:row>166</xdr:row><xdr:rowOff>66675</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1228725</xdr:colOff><xdr:row>169</xdr:row><xdr:rowOff>161925</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="5" name="Picture 6" descr="IMG-20150108-WA0011.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId5"/><a:srcRect l="31646" t="67910" r="38764" b="8566"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="790575" cy="666750"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>409575</xdr:colOff><xdr:row>170</xdr:row><xdr:rowOff>57150</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1228725</xdr:colOff><xdr:row>173</xdr:row><xdr:rowOff>171450</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="6" name="Picture 7" descr="IMG-20150108-WA0019.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId6"/><a:srcRect l="72567" t="37737" r="2166" b="30981"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="819150" cy="685800"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>419100</xdr:colOff><xdr:row>174</xdr:row><xdr:rowOff>47625</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1209675</xdr:colOff><xdr:row>177</xdr:row><xdr:rowOff>161925</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="7" name="Picture 8" descr="IMG-20150108-WA0011.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId7"/><a:srcRect l="13136" t="15266" r="72986" b="68534"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="781050" cy="685800"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>361950</xdr:colOff><xdr:row>178</xdr:row><xdr:rowOff>95250</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1295400</xdr:colOff><xdr:row>181</xdr:row><xdr:rowOff>104775</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="8" name="Picture 9" descr="IMG-20150108-WA0011.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId8"/><a:srcRect l="10218" t="55891" r="69612" b="27294"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="933450" cy="581025"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>923925</xdr:colOff><xdr:row>182</xdr:row><xdr:rowOff>66675</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1628775</xdr:colOff><xdr:row>185</xdr:row><xdr:rowOff>114300</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="9" name="Picture 10" descr="2015-01-09 11.49.14.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId9"/><a:srcRect l="72613" t="49686" r="3991" b="22641"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="704850" cy="628650"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>95250</xdr:colOff><xdr:row>182</xdr:row><xdr:rowOff>57150</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>733425</xdr:colOff><xdr:row>185</xdr:row><xdr:rowOff>123825</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="10" name="Picture 11" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId10"/><a:srcRect l="67273" t="53044" r="6545" b="11400"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="638175" cy="647700"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>466725</xdr:colOff><xdr:row>186</xdr:row><xdr:rowOff>28575</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1228725</xdr:colOff><xdr:row>189</xdr:row><xdr:rowOff>114300</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="11" name="Picture 12" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId11"/><a:srcRect l="64063" t="29700" r="1562" b="30717"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="762000" cy="657225"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>476250</xdr:colOff><xdr:row>190</xdr:row><xdr:rowOff>76200</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1238250</xdr:colOff><xdr:row>193</xdr:row><xdr:rowOff>161925</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="12" name="Picture 13" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId12"/><a:srcRect l="64063" t="29700" r="1562" b="30717"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="762000" cy="657225"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>447675</xdr:colOff><xdr:row>158</xdr:row><xdr:rowOff>57150</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1323975</xdr:colOff><xdr:row>161</xdr:row><xdr:rowOff>161925</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="13" name="Picture 14" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId13"/><a:srcRect l="78694" t="40043" r="4171" b="27446"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="16200000"><a:ext cx="676275" cy="876300"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>66675</xdr:colOff><xdr:row>195</xdr:row><xdr:rowOff>0</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1695450</xdr:colOff><xdr:row>196</xdr:row><xdr:rowOff>161925</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="14" name="Picture 15" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId14"/><a:srcRect l="4460" t="33355" r="3494" b="28562"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="1628775" cy="352425"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>10</xdr:col><xdr:colOff>361950</xdr:colOff><xdr:row>188</xdr:row><xdr:rowOff>123825</xdr:rowOff></xdr:from><xdr:to><xdr:col>17</xdr:col><xdr:colOff>104775</xdr:colOff><xdr:row>215</xdr:row><xdr:rowOff>142875</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="15" name="Picture 16" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId15"/><a:stretch><a:fillRect/></a:stretch></xdr:blipFill><xdr:spPr><a:xfrm rot="1800000"><a:ext cx="6886575" cy="5172075"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>5</xdr:col><xdr:colOff>85725</xdr:colOff><xdr:row>199</xdr:row><xdr:rowOff>9525</xdr:rowOff></xdr:from><xdr:to><xdr:col>5</xdr:col><xdr:colOff>1647825</xdr:colOff><xdr:row>200</xdr:row><xdr:rowOff>180975</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="16" name="Picture 17" descr="IMG-20150108-WA0020.jpg"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1"/></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" r:embed="rId16"/><a:srcRect l="2273" t="15902" r="6752" b="26453"/><a:stretch/></xdr:blipFill><xdr:spPr><a:xfrm rot="0"><a:ext cx="1562100" cy="352425"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor><mc:AlternateContent xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"><mc:Choice xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" Requires="a14"><xdr:twoCellAnchor editAs="oneCell"><xdr:from><xdr:col>16</xdr:col><xdr:colOff>85725</xdr:colOff><xdr:row>39</xdr:row><xdr:rowOff>57150</xdr:rowOff></xdr:from><xdr:to><xdr:col>28</xdr:col><xdr:colOff>638175</xdr:colOff><xdr:row>99</xdr:row><xdr:rowOff>152400</xdr:rowOff></xdr:to><xdr:pic><xdr:nvPicPr><xdr:cNvPr id="19" name="Picture 1"/><xdr:cNvPicPr><a:picLocks noChangeAspect="1" noChangeArrowheads="1"/><a:extLst><a:ext uri="{84589F7E-364E-4C9E-8A38-B11213B215E9}"><a14:cameraTool cellRange="$C$148:$F$202" spid="_x0000_s2053"/></a:ext></a:extLst></xdr:cNvPicPr></xdr:nvPicPr><xdr:blipFill><a:blip r:embed="rId15"/><a:srcRect/><a:stretch><a:fillRect/></a:stretch></xdr:blipFill><xdr:spPr><a:xfrm><a:off x="17706975" y="7734300"/><a:ext cx="7239000" cy="11563350"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom><a:solidFill><a:srgbClr xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="FFFFFF" mc:Ignorable="a14" a14:legacySpreadsheetColorIndex="9"/></a:solidFill><a:ln w="9525"><a:solidFill><a:srgbClr xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:a14="http://schemas.microsoft.com/office/drawing/2010/main" val="000000" mc:Ignorable="a14" a14:legacySpreadsheetColorIndex="64"/></a:solidFill><a:miter lim="800000"/><a:headEnd/><a:tailEnd/></a:ln></xdr:spPr></xdr:pic><xdr:clientData/></xdr:twoCellAnchor></mc:Choice><mc:Fallback/></mc:AlternateContent></xdr:wsDr>', 'SimpleXMLElement', 0, '')
+ 3 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\Xlsx.php(1431): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadZipNonamespace('xl/drawings/drawing4.xml', '')
+ 4 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Reader\BaseReader.php(197): PhpOffice\PhpSpreadsheet\Reader\Xlsx->loadSpreadsheetFromFile('C:\\xampp\\tmp\\phpE07E.tmp')
+ 5 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(106): PhpOffice\PhpSpreadsheet\Reader\BaseReader->load('C:\\xampp\\tmp\\phpE07E.tmp', 0)
+ 6 APPPATH\Controllers\ExcelController.php(30): PhpOffice\PhpSpreadsheet\IOFactory::load('C:\\xampp\\tmp\\phpE07E.tmp')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ExcelController->upload()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ExcelController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

@@ -1,0 +1,1179 @@
+CRITICAL - 2025-03-05 01:30:23 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 153.
+ 1 APPPATH\Controllers\Pps.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 01:30:24 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 153.
+ 1 APPPATH\Controllers\Pps.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 01:30:25 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 153.
+ 1 APPPATH\Controllers\Pps.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 01:30:25 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 153.
+ 1 APPPATH\Controllers\Pps.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 01:30:26 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 153.
+ 1 APPPATH\Controllers\Pps.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 01:30:28 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 153.
+ 1 APPPATH\Controllers\Pps.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 153)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:15:34 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:23:58 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:27:47 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:28:49 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:30:46 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:30:48 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:30:48 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:30:49 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:30:50 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:32:00 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:33:24 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:34:33 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:36:35 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:37:31 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:41:31 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:41:32 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:41:32 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:41:33 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 185.
+ 1 APPPATH\Controllers\Pps.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 185)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:44:15 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:44:15 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:44:16 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:44:16 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:44:16 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:44:19 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:44:19 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:44:19 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:48:17 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:48:40 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:50:45 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:55:02 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:55:04 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:55:58 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:56:50 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:58:39 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 02:59:29 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:00:33 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:13:50 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:13:51 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:13:52 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:13:52 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:13:52 --> ErrorException: Array to string conversion
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 154.
+ 1 APPPATH\Controllers\Pps.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 154)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-05 03:14:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-05 03:14:13 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:14:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:14:13 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-05 03:14:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-05 03:14:14 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:14:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:14:14 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-05 03:14:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-05 03:14:15 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:14:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:14:15 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-05 03:14:15 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-05 03:14:15 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:14:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 03:14:15 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '(0.85 * CAST(REPLACE(REPLACE(t2.capacity, ',', ''), ' T', '') AS DECIMAL(10,2...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(140): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t3.machine AS machine3, t3.capacity AS capacity3, t3.cushion AS cushion3, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 221.9) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) + (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24)) AS total_diff FROM master_table t1  JOIN master_table t2 ON LEFT(t1.machine, 1) = LEFT(t2.machine, 1) AND t1.machine < t2.machine  JOIN master_table t3 ON LEFT(t1.machine, 1) = LEFT(t3.machine, 1) AND t2.machine < t3.machine  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 221.9 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) AND (0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 66.24(0.85 * CAST(REPLACE(REPLACE(t3.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 66.24) ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-05 08:55:00 --> mysqli_sql_exception: Unknown column 'process_layout' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pp...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pp...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pp...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pp...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(1112): CodeIgniter\Model->insert(Array)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#15 {main}
+CRITICAL - 2025-03-05 08:55:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'process_layout' in 'field list'
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 08:55:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'process_layout' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'10\', \'\', \'4\', NULL, NULL, \'2025-03-05 08:55:00\', NULL, \'2025-03-05 08:55:00\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'10\', \'\', \'4\', NULL, NULL, \'2025-03-05 08:55:00\', NULL, \'2025-03-05 08:55:00\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 08:55:00 --> [Caused by] mysqli_sql_exception: Unknown column 'process_layout' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'10\', \'\', \'4\', NULL, NULL, \'2025-03-05 08:55:00\', NULL, \'2025-03-05 08:55:00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'10\', \'\', \'4\', NULL, NULL, \'2025-03-05 08:55:00\', NULL, \'2025-03-05 08:55:00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'10\', \'\', \'4\', NULL, NULL, \'2025-03-05 08:55:00\', NULL, \'2025-03-05 08:55:00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-05 08:55:03 --> mysqli_sql_exception: Unknown column 'process_layout' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pp...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pp...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pp...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pp...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(1112): CodeIgniter\Model->insert(Array)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#15 {main}
+CRITICAL - 2025-03-05 08:55:03 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'process_layout' in 'field list'
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 08:55:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'process_layout' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'10\', \'\', \'4\', NULL, NULL, \'2025-03-05 08:55:03\', NULL, \'2025-03-05 08:55:03\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'10\', \'\', \'4\', NULL, NULL, \'2025-03-05 08:55:03\', NULL, \'2025-03-05 08:55:03\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 08:55:03 --> [Caused by] mysqli_sql_exception: Unknown column 'process_layout' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'10\', \'\', \'4\', NULL, NULL, \'2025-03-05 08:55:03\', NULL, \'2025-03-05 08:55:03\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'10\', \'\', \'4\', NULL, NULL, \'2025-03-05 08:55:03\', NULL, \'2025-03-05 08:55:03\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'10\', \'\', \'4\', NULL, NULL, \'2025-03-05 08:55:03\', NULL, \'2025-03-05 08:55:03\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-05 08:55:27 --> mysqli_sql_exception: Unknown column 'process_layout' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pp...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pp...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pp...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pp...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(1112): CodeIgniter\Model->insert(Array)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#15 {main}
+CRITICAL - 2025-03-05 08:55:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'process_layout' in 'field list'
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 08:55:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'process_layout' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'8\', \'23\', \'4\', NULL, NULL, \'2025-03-05 08:55:27\', NULL, \'2025-03-05 08:55:27\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'8\', \'23\', \'4\', NULL, NULL, \'2025-03-05 08:55:27\', NULL, \'2025-03-05 08:55:27\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 08:55:27 --> [Caused by] mysqli_sql_exception: Unknown column 'process_layout' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'8\', \'23\', \'4\', NULL, NULL, \'2025-03-05 08:55:27\', NULL, \'2025-03-05 08:55:27\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'8\', \'23\', \'4\', NULL, NULL, \'2025-03-05 08:55:27\', NULL, \'2025-03-05 08:55:27\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'456\', \'546\', \'2025-03-05\', \'5464\', \'45645\', \'546\', \'546\', \'546\', \'546\', \'546\', \'2.340\', \'546\', \'-543.660\', \'8\', \'23\', \'4\', NULL, NULL, \'2025-03-05 08:55:27\', NULL, \'2025-03-05 08:55:27\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-05 09:34:22 --> mysqli_sql_exception: Unknown column 'process_layout' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pp...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pp...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pp...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pp...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(1112): CodeIgniter\Model->insert(Array)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#15 {main}
+CRITICAL - 2025-03-05 09:34:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'process_layout' in 'field list'
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 09:34:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'process_layout' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:34:22\', NULL, \'2025-03-05 09:34:22\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:34:22\', NULL, \'2025-03-05 09:34:22\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 09:34:22 --> [Caused by] mysqli_sql_exception: Unknown column 'process_layout' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:34:22\', NULL, \'2025-03-05 09:34:22\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:34:22\', NULL, \'2025-03-05 09:34:22\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:34:22\', NULL, \'2025-03-05 09:34:22\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-05 09:34:51 --> mysqli_sql_exception: Unknown column 'process_layout' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pp...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pp...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pp...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pp...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(1112): CodeIgniter\Model->insert(Array)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#15 {main}
+CRITICAL - 2025-03-05 09:34:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'process_layout' in 'field list'
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 09:34:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'process_layout' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:34:51\', NULL, \'2025-03-05 09:34:51\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:34:51\', NULL, \'2025-03-05 09:34:51\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 09:34:51 --> [Caused by] mysqli_sql_exception: Unknown column 'process_layout' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:34:51\', NULL, \'2025-03-05 09:34:51\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:34:51\', NULL, \'2025-03-05 09:34:51\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:34:51\', NULL, \'2025-03-05 09:34:51\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-05 09:44:39 --> mysqli_sql_exception: Unknown column 'created_by' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pp...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pp...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pp...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pp...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(1112): CodeIgniter\Model->insert(Array)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#15 {main}
+CRITICAL - 2025-03-05 09:44:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_by' in 'field list'
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 09:44:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_by' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:44:39\', NULL, \'2025-03-05 09:44:39\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:44:39\', NULL, \'2025-03-05 09:44:39\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 09:44:39 --> [Caused by] mysqli_sql_exception: Unknown column 'created_by' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:44:39\', NULL, \'2025-03-05 09:44:39\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:44:39\', NULL, \'2025-03-05 09:44:39\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:44:39\', NULL, \'2025-03-05 09:44:39\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-05 09:44:45 --> mysqli_sql_exception: Unknown column 'created_by' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pp...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pp...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pp...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pp...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, true)
+#7 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(1112): CodeIgniter\Model->insert(Array)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#15 {main}
+CRITICAL - 2025-03-05 09:44:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_by' in 'field list'
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 09:44:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'created_by' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:44:45\', NULL, \'2025-03-05 09:44:45\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:44:45\', NULL, \'2025-03-05 09:44:45\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-05 09:44:45 --> [Caused by] mysqli_sql_exception: Unknown column 'created_by' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:44:45\', NULL, \'2025-03-05 09:44:45\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:44:45\', NULL, \'2025-03-05 09:44:45\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (\'MMKI\', \'tres\', \'\', \'123\', \'123\', \'1\', \'MJAH590R\', \'1197\', \'80\', \'39\', \'0.027\', \'0.02\', \'0.007\', \'6\', \'RFQ\', \'3\', NULL, NULL, \'2025-03-05 09:44:45\', NULL, \'2025-03-05 09:44:45\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pps` (`cust`, `model`, `receive`, `part_no`, `part_name`, `cf`, `material`, `length`, `width`, `boq`, `blank`, `panel`, `scrap`, `total_mp`, `doc_level`, `total_stroke`, `blank_layout`, `process_layout`, `created_at`, `created_by`, `updated_at`) VALUES (:cust:, :model:, :receive:, :part_no:, :part_name:, :cf:, :material:, :length:, :width:, :boq:, :blank:, :panel:, :scrap:, :total_mp:, :doc_level:, :total_stroke:, :blank_layout:, :process_layout:, :created_at:, :created_by:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Pps.php(1112): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

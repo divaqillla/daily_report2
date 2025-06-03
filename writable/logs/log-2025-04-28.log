@@ -1,0 +1,27 @@
+CRITICAL - 2025-04-28 22:29:30 --> ErrorException: Undefined array key "status"
+[Method: GET, Route: pps]
+in APPPATH\Views\pps\index.php on line 76.
+ 1 APPPATH\Views\pps\index.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\index.php', 76)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/index', [], true)
+ 5 APPPATH\Controllers\Pps.php(133): view('pps/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-28 23:01:13 --> ErrorException: scandir(D:\Project Lintang\PROJEK\daily_report2\public\uploads/die_cons/): The system cannot find the file specifi (code: 2)
+[Method: GET, Route: Pps/listDieConsImg]
+in APPPATH\Controllers\Pps.php on line 3076.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'scandir(D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/die_cons/): The system cannot find the file specifi (code: 2)', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 3076)
+ 2 APPPATH\Controllers\Pps.php(3076): scandir('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/die_cons/')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->listDieConsImg()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

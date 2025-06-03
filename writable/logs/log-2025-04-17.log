@@ -1,0 +1,305 @@
+CRITICAL - 2025-04-17 04:10:21 --> TypeError: Cannot assign null to property Config\Database::$default_tooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:12:53 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:12:54 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:13:00 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:14:25 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:14:26 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:14:26 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:14:26 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:14:51 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:45 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:46 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:47 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:47 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:48 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:48 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:48 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:48 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:48 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:48 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:49 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:49 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:49 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:49 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:50 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:50 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:50 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:50 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:50 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 04:20:50 --> TypeError: Cannot assign null to property Config\Database::$defaultTooling of type array
+[Method: GET, Route: dcp/edit/116]
+in SYSTEMPATH\Config\BaseConfig.php on line 81.
+ 1 ROOTPATH\writable\cache\FactoriesCache_config(442): CodeIgniter\Config\BaseConfig::__set_state([...])
+ 2 SYSTEMPATH\Cache\FactoriesCache\FileVarExportHandler.php(44): include('D:\\Project Lintang\\PROJEK\\daily_report2\\writable\\cache\\FactoriesCache_config')
+ 3 SYSTEMPATH\Cache\FactoriesCache.php(54): CodeIgniter\Cache\FactoriesCache\FileVarExportHandler->get('FactoriesCache_config')
+ 4 SYSTEMPATH\Boot.php(308): CodeIgniter\Cache\FactoriesCache->load('config')
+ 5 SYSTEMPATH\Boot.php(61): CodeIgniter\Boot::loadConfigCache()
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-17 03:08:50 --> ErrorException: Undefined variable $spMaterialSpec
+[Method: GET, Route: dcp/create/251]
+in APPPATH\Views\dcp\create.php on line 1133.
+ 1 APPPATH\Views\dcp\create.php(1133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $spMaterialSpec', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php', 1133)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/create', [], true)
+ 5 APPPATH\Controllers\Dcp.php(360): view('dcp/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('251')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

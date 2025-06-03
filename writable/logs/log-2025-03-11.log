@@ -1,0 +1,977 @@
+ERROR - 2025-03-11 09:22:47 --> mysqli_sql_exception: Unknown column 't1.machine' in 'on clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machi...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-11 09:22:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:47 --> [Caused by] mysqli_sql_exception: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-11 09:22:48 --> mysqli_sql_exception: Unknown column 't1.machine' in 'on clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machi...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-11 09:22:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:48 --> [Caused by] mysqli_sql_exception: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-11 09:22:48 --> mysqli_sql_exception: Unknown column 't1.machine' in 'on clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machi...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-11 09:22:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:48 --> [Caused by] mysqli_sql_exception: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-11 09:22:49 --> mysqli_sql_exception: Unknown column 't1.machine' in 'on clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machi...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-11 09:22:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:49 --> [Caused by] mysqli_sql_exception: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-11 09:22:49 --> mysqli_sql_exception: Unknown column 't1.machine' in 'on clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machi...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-11 09:22:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:49 --> [Caused by] mysqli_sql_exception: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-11 09:22:53 --> mysqli_sql_exception: Unknown column 't1.machine' in 'on clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machi...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-11 09:22:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:53 --> [Caused by] mysqli_sql_exception: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-11 09:22:54 --> mysqli_sql_exception: Unknown column 't1.machine' in 'on clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machi...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-11 09:22:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:54 --> [Caused by] mysqli_sql_exception: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-11 09:22:54 --> mysqli_sql_exception: Unknown column 't1.machine' in 'on clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machi...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-11 09:22:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:22:54 --> [Caused by] mysqli_sql_exception: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(212): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                                       FROM master_table t5 
+                                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t5.machine LIKE \'%5%\') 
+                                       LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-11 09:27:25 --> mysqli_sql_exception: Unknown column 't1.machine' in 'on clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(217): CodeIgniter\Database\BaseConnection->query('SELECT t5.machi...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-11 09:27:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(217): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                       FROM master_table t5 
+                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                         AND (t5.machine LIKE \'%5%\') 
+                       LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:27:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                       FROM master_table t5 
+                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                         AND (t5.machine LIKE \'%5%\') 
+                       LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                       FROM master_table t5 
+                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                         AND (t5.machine LIKE \'%5%\') 
+                       LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(217): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                       FROM master_table t5 
+                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                         AND (t5.machine LIKE \'%5%\') 
+                       LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:27:25 --> [Caused by] mysqli_sql_exception: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                       FROM master_table t5 
+                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                         AND (t5.machine LIKE \'%5%\') 
+                       LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                       FROM master_table t5 
+                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                         AND (t5.machine LIKE \'%5%\') 
+                       LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                       FROM master_table t5 
+                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 546.48 
+                         AND (t5.machine LIKE \'%5%\') 
+                       LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(217): CodeIgniter\Database\BaseConnection->query('SELECT t5.machine AS machine, t5.capacity AS capacity, t5.cushion AS cushion, t5.dh_dies AS dh_dies 
+                       FROM master_table t5 
+                       JOIN master_table t4 ON LEFT(t1.machine, 1) = LEFT(t5.machine, 1) AND t4.machine < t5.machine 
+                       WHERE (0.85 * CAST(REPLACE(REPLACE(t5.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                         AND (t5.machine LIKE \'%5%\') 
+                       LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:32:26 --> ErrorException: Undefined variable $machineTarget
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 249.
+ 1 APPPATH\Controllers\Pps.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $machineTarget', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 249)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:32:27 --> ErrorException: Undefined variable $machineTarget
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 249.
+ 1 APPPATH\Controllers\Pps.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $machineTarget', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 249)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:32:27 --> ErrorException: Undefined variable $machineTarget
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 249.
+ 1 APPPATH\Controllers\Pps.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $machineTarget', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 249)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:32:27 --> ErrorException: Undefined variable $machineTarget
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 249.
+ 1 APPPATH\Controllers\Pps.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $machineTarget', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 249)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:32:27 --> ErrorException: Undefined variable $machineTarget
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 249.
+ 1 APPPATH\Controllers\Pps.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $machineTarget', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 249)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 09:32:28 --> ErrorException: Undefined variable $machineTarget
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 249.
+ 1 APPPATH\Controllers\Pps.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $machineTarget', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 249)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 14:50:12 --> ErrorException: Undefined variable $tes
+[Method: POST, Route: pps/fetchMachine]
+in APPPATH\Controllers\Pps.php on line 451.
+ 1 APPPATH\Controllers\Pps.php(451): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tes', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 451)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-03-11 23:19:56 --> mysqli_sql_exception: Unknown column 't1.machine' in 'on clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t6.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t6.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t6.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(237): CodeIgniter\Database\BaseConnection->query('SELECT t6.machi...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-03-11 23:19:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(237): CodeIgniter\Database\BaseConnection->query('SELECT t6.machine AS machine, t6.capacity AS capacity, t6.cushion AS cushion, t6.dh_dies AS dh_dies 
+                                       FROM master_table t6 
+                                       JOIN master_table t5 ON LEFT(t1.machine, 1) = LEFT(t6.machine, 1) AND t5.machine < t6.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t6.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t6.machine LIKE \'%6%\') 
+                                       LIMIT 1', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 23:19:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t6.machine AS machine, t6.capacity AS capacity, t6.cushion AS cushion, t6.dh_dies AS dh_dies 
+                                       FROM master_table t6 
+                                       JOIN master_table t5 ON LEFT(t1.machine, 1) = LEFT(t6.machine, 1) AND t5.machine < t6.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t6.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 347.76 
+                                         AND (t6.machine LIKE \'%6%\') 
+                                       LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t6.machine AS machine, t6.capacity AS capacity, t6.cushion AS cushion, t6.dh_dies AS dh_dies 
+                                       FROM master_table t6 
+                                       JOIN master_table t5 ON LEFT(t1.machine, 1) = LEFT(t6.machine, 1) AND t5.machine < t6.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t6.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 347.76 
+                                         AND (t6.machine LIKE \'%6%\') 
+                                       LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(237): CodeIgniter\Database\BaseConnection->query('SELECT t6.machine AS machine, t6.capacity AS capacity, t6.cushion AS cushion, t6.dh_dies AS dh_dies 
+                                       FROM master_table t6 
+                                       JOIN master_table t5 ON LEFT(t1.machine, 1) = LEFT(t6.machine, 1) AND t5.machine < t6.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t6.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t6.machine LIKE \'%6%\') 
+                                       LIMIT 1', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-03-11 23:19:57 --> [Caused by] mysqli_sql_exception: Unknown column 't1.machine' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t6.machine AS machine, t6.capacity AS capacity, t6.cushion AS cushion, t6.dh_dies AS dh_dies 
+                                       FROM master_table t6 
+                                       JOIN master_table t5 ON LEFT(t1.machine, 1) = LEFT(t6.machine, 1) AND t5.machine < t6.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t6.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 347.76 
+                                         AND (t6.machine LIKE \'%6%\') 
+                                       LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t6.machine AS machine, t6.capacity AS capacity, t6.cushion AS cushion, t6.dh_dies AS dh_dies 
+                                       FROM master_table t6 
+                                       JOIN master_table t5 ON LEFT(t1.machine, 1) = LEFT(t6.machine, 1) AND t5.machine < t6.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t6.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 347.76 
+                                         AND (t6.machine LIKE \'%6%\') 
+                                       LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t6.machine AS machine, t6.capacity AS capacity, t6.cushion AS cushion, t6.dh_dies AS dh_dies 
+                                       FROM master_table t6 
+                                       JOIN master_table t5 ON LEFT(t1.machine, 1) = LEFT(t6.machine, 1) AND t5.machine < t6.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t6.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 347.76 
+                                         AND (t6.machine LIKE \'%6%\') 
+                                       LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(237): CodeIgniter\Database\BaseConnection->query('SELECT t6.machine AS machine, t6.capacity AS capacity, t6.cushion AS cushion, t6.dh_dies AS dh_dies 
+                                       FROM master_table t6 
+                                       JOIN master_table t5 ON LEFT(t1.machine, 1) = LEFT(t6.machine, 1) AND t5.machine < t6.machine 
+                                       WHERE (0.85 * CAST(REPLACE(REPLACE(t6.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= ? 
+                                         AND (t6.machine LIKE \'%6%\') 
+                                       LIMIT 1', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

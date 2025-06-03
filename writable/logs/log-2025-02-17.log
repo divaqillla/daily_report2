@@ -1,0 +1,1359 @@
+CRITICAL - 2025-02-17 01:18:34 --> ErrorException: Undefined array key "nama  "
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama  "', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(39): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 01:18:38 --> ErrorException: Undefined array key "nama  "
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama  "', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(39): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 01:19:34 --> ErrorException: Undefined array key "nama  "
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama  "', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(39): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 01:21:50 --> ErrorException: Undefined array key "nama  "
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama  "', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(45): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 01:22:41 --> ErrorException: Undefined array key "nama  "
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama  "', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(45): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 01:32:18 --> ErrorException: Undefined variable $lastId
+[Method: GET, Route: izin]
+in APPPATH\Controllers\IzinController.php on line 22.
+ 1 APPPATH\Controllers\IzinController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastId', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\IzinController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 01:32:22 --> ErrorException: Undefined variable $lastId
+[Method: GET, Route: izin]
+in APPPATH\Controllers\IzinController.php on line 22.
+ 1 APPPATH\Controllers\IzinController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastId', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\IzinController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 01:32:32 --> ErrorException: Undefined variable $lastId
+[Method: GET, Route: izin]
+in APPPATH\Controllers\IzinController.php on line 22.
+ 1 APPPATH\Controllers\IzinController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastId', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\IzinController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 01:32:37 --> ErrorException: Undefined variable $lastId
+[Method: GET, Route: izin]
+in APPPATH\Controllers\IzinController.php on line 22.
+ 1 APPPATH\Controllers\IzinController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastId', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\IzinController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 01:32:53 --> ErrorException: Undefined variable $lastId
+[Method: GET, Route: izin]
+in APPPATH\Controllers\IzinController.php on line 22.
+ 1 APPPATH\Controllers\IzinController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastId', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\IzinController.php', 22)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 01:33:52 --> ErrorException: Undefined array key "nik"
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nik"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(38): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 02:56:18 --> ErrorException: Undefined variable $weeks
+[Method: GET, Route: history]
+in APPPATH\Views\history\index.php on line 24.
+ 1 APPPATH\Views\history\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $weeks', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('history/index', [], true)
+ 5 APPPATH\Controllers\History.php(143): view('history/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\History->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 02:56:21 --> ErrorException: Undefined variable $weeks
+[Method: GET, Route: history]
+in APPPATH\Views\history\index.php on line 24.
+ 1 APPPATH\Views\history\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $weeks', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('history/index', [], true)
+ 5 APPPATH\Controllers\History.php(143): view('history/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\History->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 02:57:46 --> ErrorException: Undefined variable $weeks
+[Method: GET, Route: history-monthly]
+in APPPATH\Views\history\index.php on line 24.
+ 1 APPPATH\Views\history\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $weeks', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('history/index', [], true)
+ 5 APPPATH\Controllers\History.php(246): view('history/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\History->indexMonthly()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 02:57:53 --> ErrorException: Undefined variable $weeks
+[Method: GET, Route: history-monthly]
+in APPPATH\Views\history\index.php on line 24.
+ 1 APPPATH\Views\history\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $weeks', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('history/index', [], true)
+ 5 APPPATH\Controllers\History.php(246): view('history/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\History->indexMonthly()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 02:57:58 --> ErrorException: Undefined variable $weeks
+[Method: GET, Route: history-monthly]
+in APPPATH\Views\history\index.php on line 24.
+ 1 APPPATH\Views\history\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $weeks', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('history/index', [], true)
+ 5 APPPATH\Controllers\History.php(246): view('history/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\History->indexMonthly()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 03:22:13 --> ErrorException: Undefined variable $start_date
+[Method: GET, Route: actual-activity]
+in APPPATH\Views\actual_activity\index.php on line 24.
+ 1 APPPATH\Views\actual_activity\index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $start_date', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\actual_activity\\index.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\actual_activity\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('actual_activity/index', [], true)
+ 5 APPPATH\Controllers\ActualActivity.php(31): view('actual_activity/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-17 04:13:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'daily_report', 3306, '', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#13 {main}
+CRITICAL - 2025-02-17 04:13:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `nik` = :nik:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-17 04:13:43 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'daily_report', 3306, '', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#13 {main}
+CRITICAL - 2025-02-17 04:13:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `nik` = :nik:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-17 04:15:35 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'daily_report', 3306, '', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#13 {main}
+CRITICAL - 2025-02-17 04:15:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `nik` = :nik:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-17 04:15:42 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'daily_report', 3306, '', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(713): CodeIgniter\Model->doFirst()
+#5 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#13 {main}
+CRITICAL - 2025-02-17 04:15:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+[Method: POST, Route: login]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `nik` = :nik:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(26): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->attemptLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 04:32:51 --> ErrorException: Undefined variable $start_date
+[Method: GET, Route: detail/detail/I8l14tCCeNFhtc2-qg0ngvGtUEuhfJdP4-k2sqBqn2mZNdVxUoJwHJJk9HZ0J-4_cApxCurKNhs3Se6mKuQtMaH7aQBDAHdBm9NQroO8yiu1jw]
+in APPPATH\Views\user\profile.php on line 115.
+ 1 APPPATH\Views\user\profile.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $start_date', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\user\\profile.php', 115)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\user\\profile.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('user/profile', [], true)
+ 5 APPPATH\Controllers\History.php(442): view('user/profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\History->detailProfil('I8l14tCCeNFhtc2-qg0ngvGtUEuhfJdP4-k2sqBqn2mZNdVxUoJwHJJk9HZ0J-4_cApxCurKNhs3Se6mKuQtMaH7aQBDAHdBm9NQroO8yiu1jw')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:09:52 --> ErrorException: Undefined variable $projectDurationData
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard\index.php on line 52.
+ 1 APPPATH\Views\dashboard\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $projectDurationData', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(65): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:09:52 --> ErrorException: Undefined variable $projectDurationData
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard\index.php on line 52.
+ 1 APPPATH\Views\dashboard\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $projectDurationData', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(65): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:10:07 --> ErrorException: Undefined variable $projectDurationData
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard\index.php on line 52.
+ 1 APPPATH\Views\dashboard\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $projectDurationData', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(65): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:10:15 --> ErrorException: Undefined variable $projectDurationData
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard\index.php on line 52.
+ 1 APPPATH\Views\dashboard\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $projectDurationData', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(65): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:10:39 --> ErrorException: Undefined variable $projectDurationData
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard\index.php on line 52.
+ 1 APPPATH\Views\dashboard\index.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $projectDurationData', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php', 52)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(65): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-17 06:22:18 --> mysqli_sql_exception: Incorrect parameter count in the call to native function 'IFNULL' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n          SEL...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n          SEL...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n          SEL...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Dashboard.php(43): CodeIgniter\Database\BaseConnection->query('\r\n          SEL...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-02-17 06:22:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect parameter count in the call to native function 'IFNULL'
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Dashboard.php(43): CodeIgniter\Database\BaseConnection->query('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:22:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect parameter count in the call to native function 'IFNULL'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 3 APPPATH\Controllers\Dashboard.php(43): CodeIgniter\Database\BaseConnection->query('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:22:18 --> [Caused by] mysqli_sql_exception: Incorrect parameter count in the call to native function 'IFNULL'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 4 APPPATH\Controllers\Dashboard.php(43): CodeIgniter\Database\BaseConnection->query('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-17 06:22:19 --> mysqli_sql_exception: Incorrect parameter count in the call to native function 'IFNULL' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n          SEL...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n          SEL...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n          SEL...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Dashboard.php(43): CodeIgniter\Database\BaseConnection->query('\r\n          SEL...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-02-17 06:22:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Incorrect parameter count in the call to native function 'IFNULL'
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Dashboard.php(43): CodeIgniter\Database\BaseConnection->query('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:22:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Incorrect parameter count in the call to native function 'IFNULL'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 3 APPPATH\Controllers\Dashboard.php(43): CodeIgniter\Database\BaseConnection->query('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:22:19 --> [Caused by] mysqli_sql_exception: Incorrect parameter count in the call to native function 'IFNULL'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 4 APPPATH\Controllers\Dashboard.php(43): CodeIgniter\Database\BaseConnection->query('
+          SELECT 
+            CONCAT(
+                IFNULL(p.model, \'\'), 
+                IFNULL( p.another_project), \'\')
+            ) AS project_model,
+            SUM(d.total_time) AS total_duration
+        FROM actual_activity_detail d
+        JOIN activities a ON d.activity_id = a.id
+        JOIN projects p ON d.project_id = p.id
+        WHERE d.start_time >= DATE_SUB(CURDATE(), INTERVAL 1 MONTH)  
+            AND a.status = 1  
+            AND d.status = 1
+        GROUP BY p.model, p.another_project
+
+        ')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:23:45 --> ErrorException: Undefined variable $db
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 19.
+ 1 APPPATH\Controllers\Dashboard.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dashboard.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:29:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(102): view('dashboard/project_detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:38:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(103): view('dashboard/project_detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:38:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(103): view('dashboard/project_detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:41:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(103): view('dashboard/project_detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:42:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(101): view('dashboard/project_detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:43:04 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(101): view('dashboard/project_detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:44:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(101): view('dashboard/project_detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:44:53 --> ErrorException: Undefined variable $project_name
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in APPPATH\Views\dashboard\project_detail.php on line 4.
+ 1 APPPATH\Views\dashboard\project_detail.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $project_name', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(101): view('dashboard/project_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:46:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/main.php"
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/main', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(101): view('dashboard/project_detail', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:47:05 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\dashboard\project_detail.php(5): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(101): view('dashboard/project_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:47:06 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\dashboard\project_detail.php(5): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(101): view('dashboard/project_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:47:07 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\dashboard\project_detail.php(5): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(101): view('dashboard/project_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:47:07 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\dashboard\project_detail.php(5): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(101): view('dashboard/project_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:47:07 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\dashboard\project_detail.php(5): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(101): view('dashboard/project_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:47:08 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\dashboard\project_detail.php(5): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(101): view('dashboard/project_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:47:11 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\dashboard\project_detail.php(5): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(101): view('dashboard/project_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:50:35 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\dashboard\project_detail.php(5): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(102): view('dashboard/project_detail')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:51:16 --> ErrorException: Undefined variable $project_name
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in APPPATH\Views\dashboard\project_detail.php on line 4.
+ 1 APPPATH\Views\dashboard\project_detail.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $project_name', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(100): view('dashboard/project_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 06:51:41 --> ErrorException: Undefined variable $project_name
+[Method: GET, Route: dashboard/projectDetail/DAILY]
+in APPPATH\Views\dashboard\project_detail.php on line 4.
+ 1 APPPATH\Views\dashboard\project_detail.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $project_name', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\project_detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/project_detail', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(100): view('dashboard/project_detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('DAILY')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 07:22:43 --> ErrorException: Undefined variable $frequencyData
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 78.
+ 1 APPPATH\Controllers\Dashboard.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $frequencyData', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dashboard.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 07:54:33 --> ErrorException: Undefined variable $user
+[Method: GET, Route: history]
+in APPPATH\Views\history\index.php on line 27.
+ 1 APPPATH\Views\history\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('history/index', [], true)
+ 5 APPPATH\Controllers\History.php(118): view('history/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\History->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 07:54:56 --> ErrorException: Undefined variable $user
+[Method: GET, Route: history]
+in APPPATH\Views\history\index.php on line 27.
+ 1 APPPATH\Views\history\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\history\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('history/index', [], true)
+ 5 APPPATH\Controllers\History.php(118): view('history/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\History->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-17 08:07:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity_detail`.`st...' at line 10 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT DATE_FOR...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DATE_FOR...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DATE_FOR...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FOR...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\History.php(426): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\History->detailProfil('SFHliFljHmabbyZ...')
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-17 08:07:21 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity_detail`.`st...' at line 10
+[Method: GET, Route: history/detail/SFHliFljHmabbyZM7JzBq7WvUSGoTjCRgZJtPWbzsBDvyh0IZmygD7O_Nnkcm2CF2MpW3GHTheJQfxbAeQ50mQmZ-T_S79JPrFFZsTN68sJpew]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FORMAT(actual_activity.dates, "%Y-%m-%d") as date, TIME_FORMAT(actual_activity_detail.start_time, "%H:%i") as time, `actual_activity_detail`.`total_time` as `total_time`, TIME_FORMAT(actual_activity_detail.end_time, "%H:%i") as end_time, `activities`.`name` as `activity_name`, `projects`.`model`, `projects`.`process`, `projects`.`proses`, `projects`.`part_no`, `actual_activity_detail`.`id` as `idss`, `actual_activity_detail`.`remark` as `remark`, `projects`.`another_project`
+FROM `actual_activity_detail`
+LEFT JOIN `actual_activity` ON `actual_activity_detail`.`actual_activity_id` = `actual_activity`.`id`
+LEFT JOIN `activities` ON `actual_activity_detail`.`activity_id` = `activities`.`id`
+LEFT JOIN `projects` ON `projects`.`id` = `actual_activity_detail`.`project_id`
+WHERE `actual_activity`.`created_by` = :actual_activity.created_by:
+AND `actual_activity`.`status` = :actual_activity.status:
+AND `actual_activity_detail`.`status` = :actual_activity_detail.status:
+AND `actual_activity`.`dates` >= :actual_activity.dates:
+AND `actual_activity`.`dates` < IS NULL
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity_detail`.`start_time` ASC', [...], false)
+ 2 APPPATH\Controllers\History.php(426): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\History->detailProfil('SFHliFljHmabbyZM7JzBq7WvUSGoTjCRgZJtPWbzsBDvyh0IZmygD7O_Nnkcm2CF2MpW3GHTheJQfxbAeQ50mQmZ-T_S79JPrFFZsTN68sJpew')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 08:07:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity_detail`.`st...' at line 10
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DATE_FORMAT(actual_activity.dates, "%Y-%m-%d") as date, TIME_FORMAT(actual_activity_detail.start_time, "%H:%i") as time, `actual_activity_detail`.`total_time` as `total_time`, TIME_FORMAT(actual_activity_detail.end_time, "%H:%i") as end_time, `activities`.`name` as `activity_name`, `projects`.`model`, `projects`.`process`, `projects`.`proses`, `projects`.`part_no`, `actual_activity_detail`.`id` as `idss`, `actual_activity_detail`.`remark` as `remark`, `projects`.`another_project`
+FROM `actual_activity_detail`
+LEFT JOIN `actual_activity` ON `actual_activity_detail`.`actual_activity_id` = `actual_activity`.`id`
+LEFT JOIN `activities` ON `actual_activity_detail`.`activity_id` = `activities`.`id`
+LEFT JOIN `projects` ON `projects`.`id` = `actual_activity_detail`.`project_id`
+WHERE `actual_activity`.`created_by` = \'20\'
+AND `actual_activity`.`status` = 1
+AND `actual_activity_detail`.`status` = 1
+AND `actual_activity`.`dates` >= \'2025-01-18\'
+AND `actual_activity`.`dates` < IS NULL
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity_detail`.`start_time` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DATE_FORMAT(actual_activity.dates, "%Y-%m-%d") as date, TIME_FORMAT(actual_activity_detail.start_time, "%H:%i") as time, `actual_activity_detail`.`total_time` as `total_time`, TIME_FORMAT(actual_activity_detail.end_time, "%H:%i") as end_time, `activities`.`name` as `activity_name`, `projects`.`model`, `projects`.`process`, `projects`.`proses`, `projects`.`part_no`, `actual_activity_detail`.`id` as `idss`, `actual_activity_detail`.`remark` as `remark`, `projects`.`another_project`
+FROM `actual_activity_detail`
+LEFT JOIN `actual_activity` ON `actual_activity_detail`.`actual_activity_id` = `actual_activity`.`id`
+LEFT JOIN `activities` ON `actual_activity_detail`.`activity_id` = `activities`.`id`
+LEFT JOIN `projects` ON `projects`.`id` = `actual_activity_detail`.`project_id`
+WHERE `actual_activity`.`created_by` = \'20\'
+AND `actual_activity`.`status` = 1
+AND `actual_activity_detail`.`status` = 1
+AND `actual_activity`.`dates` >= \'2025-01-18\'
+AND `actual_activity`.`dates` < IS NULL
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity_detail`.`start_time` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FORMAT(actual_activity.dates, "%Y-%m-%d") as date, TIME_FORMAT(actual_activity_detail.start_time, "%H:%i") as time, `actual_activity_detail`.`total_time` as `total_time`, TIME_FORMAT(actual_activity_detail.end_time, "%H:%i") as end_time, `activities`.`name` as `activity_name`, `projects`.`model`, `projects`.`process`, `projects`.`proses`, `projects`.`part_no`, `actual_activity_detail`.`id` as `idss`, `actual_activity_detail`.`remark` as `remark`, `projects`.`another_project`
+FROM `actual_activity_detail`
+LEFT JOIN `actual_activity` ON `actual_activity_detail`.`actual_activity_id` = `actual_activity`.`id`
+LEFT JOIN `activities` ON `actual_activity_detail`.`activity_id` = `activities`.`id`
+LEFT JOIN `projects` ON `projects`.`id` = `actual_activity_detail`.`project_id`
+WHERE `actual_activity`.`created_by` = :actual_activity.created_by:
+AND `actual_activity`.`status` = :actual_activity.status:
+AND `actual_activity_detail`.`status` = :actual_activity_detail.status:
+AND `actual_activity`.`dates` >= :actual_activity.dates:
+AND `actual_activity`.`dates` < IS NULL
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity_detail`.`start_time` ASC', [...], false)
+ 4 APPPATH\Controllers\History.php(426): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\History->detailProfil('SFHliFljHmabbyZM7JzBq7WvUSGoTjCRgZJtPWbzsBDvyh0IZmygD7O_Nnkcm2CF2MpW3GHTheJQfxbAeQ50mQmZ-T_S79JPrFFZsTN68sJpew')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 08:07:21 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity_detail`.`st...' at line 10
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT DATE_FORMAT(actual_activity.dates, "%Y-%m-%d") as date, TIME_FORMAT(actual_activity_detail.start_time, "%H:%i") as time, `actual_activity_detail`.`total_time` as `total_time`, TIME_FORMAT(actual_activity_detail.end_time, "%H:%i") as end_time, `activities`.`name` as `activity_name`, `projects`.`model`, `projects`.`process`, `projects`.`proses`, `projects`.`part_no`, `actual_activity_detail`.`id` as `idss`, `actual_activity_detail`.`remark` as `remark`, `projects`.`another_project`
+FROM `actual_activity_detail`
+LEFT JOIN `actual_activity` ON `actual_activity_detail`.`actual_activity_id` = `actual_activity`.`id`
+LEFT JOIN `activities` ON `actual_activity_detail`.`activity_id` = `activities`.`id`
+LEFT JOIN `projects` ON `projects`.`id` = `actual_activity_detail`.`project_id`
+WHERE `actual_activity`.`created_by` = \'20\'
+AND `actual_activity`.`status` = 1
+AND `actual_activity_detail`.`status` = 1
+AND `actual_activity`.`dates` >= \'2025-01-18\'
+AND `actual_activity`.`dates` < IS NULL
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity_detail`.`start_time` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT DATE_FORMAT(actual_activity.dates, "%Y-%m-%d") as date, TIME_FORMAT(actual_activity_detail.start_time, "%H:%i") as time, `actual_activity_detail`.`total_time` as `total_time`, TIME_FORMAT(actual_activity_detail.end_time, "%H:%i") as end_time, `activities`.`name` as `activity_name`, `projects`.`model`, `projects`.`process`, `projects`.`proses`, `projects`.`part_no`, `actual_activity_detail`.`id` as `idss`, `actual_activity_detail`.`remark` as `remark`, `projects`.`another_project`
+FROM `actual_activity_detail`
+LEFT JOIN `actual_activity` ON `actual_activity_detail`.`actual_activity_id` = `actual_activity`.`id`
+LEFT JOIN `activities` ON `actual_activity_detail`.`activity_id` = `activities`.`id`
+LEFT JOIN `projects` ON `projects`.`id` = `actual_activity_detail`.`project_id`
+WHERE `actual_activity`.`created_by` = \'20\'
+AND `actual_activity`.`status` = 1
+AND `actual_activity_detail`.`status` = 1
+AND `actual_activity`.`dates` >= \'2025-01-18\'
+AND `actual_activity`.`dates` < IS NULL
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity_detail`.`start_time` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT DATE_FORMAT(actual_activity.dates, "%Y-%m-%d") as date, TIME_FORMAT(actual_activity_detail.start_time, "%H:%i") as time, `actual_activity_detail`.`total_time` as `total_time`, TIME_FORMAT(actual_activity_detail.end_time, "%H:%i") as end_time, `activities`.`name` as `activity_name`, `projects`.`model`, `projects`.`process`, `projects`.`proses`, `projects`.`part_no`, `actual_activity_detail`.`id` as `idss`, `actual_activity_detail`.`remark` as `remark`, `projects`.`another_project`
+FROM `actual_activity_detail`
+LEFT JOIN `actual_activity` ON `actual_activity_detail`.`actual_activity_id` = `actual_activity`.`id`
+LEFT JOIN `activities` ON `actual_activity_detail`.`activity_id` = `activities`.`id`
+LEFT JOIN `projects` ON `projects`.`id` = `actual_activity_detail`.`project_id`
+WHERE `actual_activity`.`created_by` = \'20\'
+AND `actual_activity`.`status` = 1
+AND `actual_activity_detail`.`status` = 1
+AND `actual_activity`.`dates` >= \'2025-01-18\'
+AND `actual_activity`.`dates` < IS NULL
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity_detail`.`start_time` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT DATE_FORMAT(actual_activity.dates, "%Y-%m-%d") as date, TIME_FORMAT(actual_activity_detail.start_time, "%H:%i") as time, `actual_activity_detail`.`total_time` as `total_time`, TIME_FORMAT(actual_activity_detail.end_time, "%H:%i") as end_time, `activities`.`name` as `activity_name`, `projects`.`model`, `projects`.`process`, `projects`.`proses`, `projects`.`part_no`, `actual_activity_detail`.`id` as `idss`, `actual_activity_detail`.`remark` as `remark`, `projects`.`another_project`
+FROM `actual_activity_detail`
+LEFT JOIN `actual_activity` ON `actual_activity_detail`.`actual_activity_id` = `actual_activity`.`id`
+LEFT JOIN `activities` ON `actual_activity_detail`.`activity_id` = `activities`.`id`
+LEFT JOIN `projects` ON `projects`.`id` = `actual_activity_detail`.`project_id`
+WHERE `actual_activity`.`created_by` = :actual_activity.created_by:
+AND `actual_activity`.`status` = :actual_activity.status:
+AND `actual_activity_detail`.`status` = :actual_activity_detail.status:
+AND `actual_activity`.`dates` >= :actual_activity.dates:
+AND `actual_activity`.`dates` < IS NULL
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity_detail`.`start_time` ASC', [...], false)
+ 5 APPPATH\Controllers\History.php(426): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\History->detailProfil('SFHliFljHmabbyZM7JzBq7WvUSGoTjCRgZJtPWbzsBDvyh0IZmygD7O_Nnkcm2CF2MpW3GHTheJQfxbAeQ50mQmZ-T_S79JPrFFZsTN68sJpew')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\History))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-17 09:35:53 --> ErrorException: Undefined array key "nik"
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nik"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(38): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

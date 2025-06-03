@@ -1,0 +1,59 @@
+CRITICAL - 2025-05-06 04:21:57 --> ErrorException: Undefined variable $groupedCcf
+[Method: GET, Route: master-ccf]
+in APPPATH\Views\ccf\index.php on line 42.
+ 1 APPPATH\Views\ccf\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $groupedCcf', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\ccf\\index.php', 42)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\ccf\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('ccf/index', [], true)
+ 5 APPPATH\Controllers\CcfLeadTimeController.php(22): view('ccf/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CcfLeadTimeController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CcfLeadTimeController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-05-06 04:22:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "layouts/app.php"
+[Method: GET, Route: master-ccf]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/app.php')
+ 2 SYSTEMPATH\View\View.php(240): CodeIgniter\View\View->render('layouts/app', [], true)
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('leadTimeCcf/index', [], true)
+ 4 APPPATH\Controllers\CcfLeadTimeController.php(22): view('leadTimeCcf/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CcfLeadTimeController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CcfLeadTimeController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-05-06 04:29:42 --> ErrorException: Undefined variable $projects
+[Method: GET, Route: leadTimeCcf/create]
+in APPPATH\Views\ccf\create.php on line 182.
+ 1 APPPATH\Views\ccf\create.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $projects', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\ccf\\create.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\ccf\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('ccf/create', [], true)
+ 5 APPPATH\Controllers\CcfLeadTimeController.php(28): view('ccf/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CcfLeadTimeController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CcfLeadTimeController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-05-06 04:30:01 --> ErrorException: Undefined variable $projects
+[Method: GET, Route: leadTimeCcf/create]
+in APPPATH\Views\ccf\create.php on line 182.
+ 1 APPPATH\Views\ccf\create.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $projects', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\ccf\\create.php', 182)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\ccf\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('ccf/create', [], true)
+ 5 APPPATH\Controllers\CcfLeadTimeController.php(28): view('ccf/create')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CcfLeadTimeController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CcfLeadTimeController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

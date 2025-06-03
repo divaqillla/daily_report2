@@ -1,0 +1,90 @@
+CRITICAL - 2025-02-25 06:25:25 --> PhpOffice\PhpSpreadsheet\Reader\Exception: File "D:\Project Lintang\PROJEK\daily_report2\public\uploads/PPS.xlsx" does not exist.
+[Method: POST, Route: pps/submit]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 147.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(133): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/PPS.xlsx')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/PPS.xlsx', null)
+ 3 APPPATH\Controllers\Pps.php(26): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/PPS.xlsx')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submit()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-25 06:25:35 --> PhpOffice\PhpSpreadsheet\Reader\Exception: File "D:\Project Lintang\PROJEK\daily_report2\public\uploads/PPS.xlsx" does not exist.
+[Method: POST, Route: pps/submit]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Shared\File.php on line 147.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(133): PhpOffice\PhpSpreadsheet\Shared\File::assertFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/PPS.xlsx')
+ 2 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/PPS.xlsx', null)
+ 3 APPPATH\Controllers\Pps.php(26): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/PPS.xlsx')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submit()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-25 06:25:52 --> PhpOffice\PhpSpreadsheet\Reader\Exception: Unable to identify a reader for this file
+[Method: POST, Route: pps/submit]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php on line 168.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/template/PPS.xlsx', null)
+ 2 APPPATH\Controllers\Pps.php(26): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/template/PPS.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-25 06:26:32 --> PhpOffice\PhpSpreadsheet\Reader\Exception: Unable to identify a reader for this file
+[Method: POST, Route: pps/submit]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php on line 168.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/template/PPS.xlsx', null)
+ 2 APPPATH\Controllers\Pps.php(27): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/template/PPS.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-25 06:27:23 --> PhpOffice\PhpSpreadsheet\Reader\Exception: Unable to identify a reader for this file
+[Method: POST, Route: pps/submit]
+in VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php on line 168.
+ 1 VENDORPATH\phpoffice\phpspreadsheet\src\PhpSpreadsheet\IOFactory.php(104): PhpOffice\PhpSpreadsheet\IOFactory::createReaderForFile('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/template/PPS.xlsx', null)
+ 2 APPPATH\Controllers\Pps.php(27): PhpOffice\PhpSpreadsheet\IOFactory::load('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\uploads/template/PPS.xlsx')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-25 06:29:26 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Debug\Exceptions.php on line 208.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-25 06:31:07 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Debug\Exceptions.php on line 208.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-25 06:33:00 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Debug\Exceptions.php on line 208.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-25 06:34:17 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Debug\Exceptions.php on line 208.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-25 07:21:17 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Debug\Exceptions.php on line 208.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-25 07:23:32 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Debug\Exceptions.php on line 208.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-02-25 07:24:32 --> ErrorException: Maximum execution time of 60 seconds exceeded
+[Method: POST, Route: pps/submit]
+in SYSTEMPATH\Debug\Exceptions.php on line 208.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

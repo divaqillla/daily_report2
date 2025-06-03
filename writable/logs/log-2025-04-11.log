@@ -1,0 +1,1287 @@
+CRITICAL - 2025-04-11 01:45:50 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: pps/submit]
+in APPPATH\Controllers\Pps.php on line 1547.
+ 1 APPPATH\Controllers\Pps.php(1547): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 1547)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 01:46:36 --> ErrorException: copy(D:\Project Lintang\PROJEK\daily_report2\public/uploads/process_layout/67f8747ca59d9_1744182260_0d542eb19d3cb0549e9a.png): Failed to open stream: No such file or directory
+[Method: POST, Route: pps/submit]
+in APPPATH\Controllers\Pps.php on line 1136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(D:\\Project Lintang\\PROJEK\\daily_report2\\public/uploads/process_layout/67f8747ca59d9_1744182260_0d542eb19d3cb0549e9a.png): Failed to open stream: No such file or directory', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 1136)
+ 2 APPPATH\Controllers\Pps.php(1136): copy('D:\\Project Lintang\\PROJEK\\daily_report2\\public/uploads/dcp/1744182260_0d542eb19d3cb0549e9a.png', 'D:\\Project Lintang\\PROJEK\\daily_report2\\public/uploads/process_layout/67f8747ca59d9_1744182260_0d542eb19d3cb0549e9a.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submit()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 01:50:43 --> ParseError: syntax error, unexpected variable "$mainData"
+[Method: POST, Route: pps/submit]
+in APPPATH\Controllers\Pps.php on line 1539.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pps')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pps')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Pps', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 01:50:56 --> ErrorException: copy(D:\Project Lintang\PROJEK\daily_report2\public/uploads/process_layout/process_layout_1744336256_1744182260_0d542eb19d3cb0549e9a.png): Failed to open stream: No such file or directory
+[Method: POST, Route: pps/submit]
+in APPPATH\Controllers\Pps.php on line 1534.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'copy(D:\\Project Lintang\\PROJEK\\daily_report2\\public/uploads/process_layout/process_layout_1744336256_1744182260_0d542eb19d3cb0549e9a.png): Failed to open stream: No such file or directory', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 1534)
+ 2 APPPATH\Controllers\Pps.php(1534): copy('D:\\Project Lintang\\PROJEK\\daily_report2\\public/uploads/dcp/1744182260_0d542eb19d3cb0549e9a.png', 'D:\\Project Lintang\\PROJEK\\daily_report2\\public/uploads/process_layout/process_layout_1744336256_1744182260_0d542eb19d3cb0549e9a.png')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 01:52:03 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: pps/submit]
+in APPPATH\Controllers\Pps.php on line 1570.
+ 1 APPPATH\Controllers\Pps.php(1570): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 1570)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->submitAndDownload()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 02:23:40 --> ErrorException: Undefined array key "bolster_width"
+[Method: GET, Route: pps/edit/62]
+in APPPATH\Views\pps\edit.php on line 768.
+ 1 APPPATH\Views\pps\edit.php(768): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bolster_width"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 768)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1303): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('62')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 02:23:44 --> ErrorException: Undefined array key "bolster_width"
+[Method: GET, Route: pps/edit/62]
+in APPPATH\Views\pps\edit.php on line 768.
+ 1 APPPATH\Views\pps\edit.php(768): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bolster_width"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 768)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1303): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('62')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 02:25:07 --> ErrorException: Undefined array key "bolster_width"
+[Method: GET, Route: pps/edit/62]
+in APPPATH\Views\pps\edit.php on line 768.
+ 1 APPPATH\Views\pps\edit.php(768): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bolster_width"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 768)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1303): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('62')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 02:25:08 --> ErrorException: Undefined array key "bolster_width"
+[Method: GET, Route: pps/edit/62]
+in APPPATH\Views\pps\edit.php on line 768.
+ 1 APPPATH\Views\pps\edit.php(768): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bolster_width"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 768)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1303): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('62')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 02:25:08 --> ErrorException: Undefined array key "bolster_width"
+[Method: GET, Route: pps/edit/62]
+in APPPATH\Views\pps\edit.php on line 768.
+ 1 APPPATH\Views\pps\edit.php(768): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bolster_width"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 768)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1303): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('62')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 02:25:09 --> ErrorException: Undefined array key "bolster_width"
+[Method: GET, Route: pps/edit/62]
+in APPPATH\Views\pps\edit.php on line 768.
+ 1 APPPATH\Views\pps\edit.php(768): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bolster_width"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 768)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1303): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('62')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 02:25:40 --> ErrorException: Undefined array key "bolster_width"
+[Method: GET, Route: pps/edit/55]
+in APPPATH\Views\pps\edit.php on line 768.
+ 1 APPPATH\Views\pps\edit.php(768): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bolster_width"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 768)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1303): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('55')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 02:26:57 --> ErrorException: Undefined array key "bolster_width"
+[Method: GET, Route: pps/edit/55]
+in APPPATH\Views\pps\edit.php on line 768.
+ 1 APPPATH\Views\pps\edit.php(768): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bolster_width"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 768)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1303): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('55')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 02:27:21 --> ErrorException: Undefined array key "bolster_width"
+[Method: GET, Route: pps/edit/55]
+in APPPATH\Views\pps\edit.php on line 768.
+ 1 APPPATH\Views\pps\edit.php(768): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bolster_width"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php', 768)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/edit', [], true)
+ 5 APPPATH\Controllers\Pps.php(1303): view('pps/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->edit('55')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:16:56 --> ErrorException: Undefined variable $overview
+[Method: GET, Route: dcp-excel/56]
+in APPPATH\Controllers\Dcp.php on line 1452.
+ 1 APPPATH\Controllers\Dcp.php(1452): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $overview', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 1452)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('56')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:18:54 --> ErrorException: Undefined variable $overview
+[Method: GET, Route: dcp-excel/55]
+in APPPATH\Controllers\Dcp.php on line 1452.
+ 1 APPPATH\Controllers\Dcp.php(1452): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $overview', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 1452)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('55')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:20:12 --> ParseError: syntax error, unexpected token "foreach"
+[Method: GET, Route: dcp-excel/55]
+in APPPATH\Controllers\Dcp.php on line 1138.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dcp')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dcp')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Dcp', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:20:14 --> ParseError: syntax error, unexpected token "foreach"
+[Method: GET, Route: dcp-excel/55]
+in APPPATH\Controllers\Dcp.php on line 1138.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Dcp')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Dcp')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Dcp', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:20:34 --> ErrorException: Undefined variable $writer
+[Method: GET, Route: dcp-excel/55]
+in APPPATH\Controllers\Dcp.php on line 1461.
+ 1 APPPATH\Controllers\Dcp.php(1461): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $writer', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 1461)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('55')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:20:36 --> ErrorException: Undefined variable $writer
+[Method: GET, Route: dcp-excel/55]
+in APPPATH\Controllers\Dcp.php on line 1461.
+ 1 APPPATH\Controllers\Dcp.php(1461): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $writer', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 1461)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('55')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:20:37 --> ErrorException: Undefined variable $writer
+[Method: GET, Route: dcp-excel/55]
+in APPPATH\Controllers\Dcp.php on line 1461.
+ 1 APPPATH\Controllers\Dcp.php(1461): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $writer', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 1461)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('55')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:20:44 --> ErrorException: Undefined variable $writer
+[Method: GET, Route: dcp-excel/55]
+in APPPATH\Controllers\Dcp.php on line 1461.
+ 1 APPPATH\Controllers\Dcp.php(1461): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $writer', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 1461)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('55')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:20:46 --> ErrorException: Undefined variable $writer
+[Method: GET, Route: dcp-excel/55]
+in APPPATH\Controllers\Dcp.php on line 1461.
+ 1 APPPATH\Controllers\Dcp.php(1461): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $writer', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 1461)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->generateExcel('55')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:35:19 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: pps/edit/55]
+in APPPATH\Controllers\Pps.php on line 211.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pps')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pps')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Pps', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:35:19 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: pps/edit/55]
+in APPPATH\Controllers\Pps.php on line 211.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pps')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pps')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Pps', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:35:20 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: pps/edit/55]
+in APPPATH\Controllers\Pps.php on line 211.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pps')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pps')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Pps', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:35:24 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: pps/fetchMachineByMachine]
+in APPPATH\Controllers\Pps.php on line 211.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pps')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pps')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Pps', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:35:24 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: pps/fetchStandard]
+in APPPATH\Controllers\Pps.php on line 211.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pps')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pps')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Pps', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:35:31 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: machine-match/checkMatch]
+in APPPATH\Controllers\Pps.php on line 211.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pps')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pps')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Pps', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:35:32 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: machine-match/checkMatch]
+in APPPATH\Controllers\Pps.php on line 211.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pps')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pps')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Pps', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:35:33 --> ParseError: syntax error, unexpected token "}"
+[Method: POST, Route: machine-match/checkMatch]
+in APPPATH\Controllers\Pps.php on line 211.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pps')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pps')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Pps', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:35:35 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: pps/edit/55]
+in APPPATH\Controllers\Pps.php on line 211.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Pps')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Pps')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\Pps', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-04-11 03:54:07 --> mysqli_sql_exception: Unknown column 't2.machine' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-04-11 03:54:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:07 --> [Caused by] mysqli_sql_exception: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-04-11 03:54:08 --> mysqli_sql_exception: Unknown column 't2.machine' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-04-11 03:54:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:08 --> [Caused by] mysqli_sql_exception: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-04-11 03:54:08 --> mysqli_sql_exception: Unknown column 't2.machine' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-04-11 03:54:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:08 --> [Caused by] mysqli_sql_exception: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-04-11 03:54:17 --> mysqli_sql_exception: Unknown column 't2.machine' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-04-11 03:54:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:17 --> [Caused by] mysqli_sql_exception: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-04-11 03:54:47 --> mysqli_sql_exception: Unknown column 't2.machine' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-04-11 03:54:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:47 --> [Caused by] mysqli_sql_exception: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-04-11 03:54:47 --> mysqli_sql_exception: Unknown column 't2.machine' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-04-11 03:54:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:47 --> [Caused by] mysqli_sql_exception: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-04-11 03:54:47 --> mysqli_sql_exception: Unknown column 't2.machine' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-04-11 03:54:47 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:47 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:47 --> [Caused by] mysqli_sql_exception: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-04-11 03:54:56 --> mysqli_sql_exception: Unknown column 't2.machine' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-04-11 03:54:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:54:56 --> [Caused by] mysqli_sql_exception: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 160.8) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 52.8)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 160.8 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 52.8 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-04-11 03:55:32 --> mysqli_sql_exception: Unknown column 't2.machine' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-04-11 03:55:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:55:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:55:32 --> [Caused by] mysqli_sql_exception: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-04-11 03:55:42 --> mysqli_sql_exception: Unknown column 't2.machine' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-04-11 03:55:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:55:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:55:42 --> [Caused by] mysqli_sql_exception: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-04-11 03:58:11 --> mysqli_sql_exception: Unknown column 't2.machine' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machi...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machi...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machi...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machi...')
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-04-11 03:58:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+[Method: POST, Route: pps/fetchMachine]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:58:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 03:58:11 --> [Caused by] mysqli_sql_exception: Unknown column 't2.machine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 4 APPPATH\Controllers\Pps.php(220): CodeIgniter\Database\BaseConnection->query('SELECT t1.machine AS machine1, t1.capacity AS capacity1, t1.cushion AS cushion1, t1.dh_dies AS dh_dies1, t2.machine AS machine2, t2.capacity AS capacity2, t2.cushion AS cushion2, t2.dh_dies AS dh_dies2, ((0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4) + (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2)) - 26.4)) AS total_diff FROM master_table t1  WHERE (0.85 * CAST(REPLACE(REPLACE(t1.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t1.machine LIKE \'%1%\') AND (0.85 * CAST(REPLACE(REPLACE(t2.capacity, \',\', \'\'), \' T\', \'\') AS DECIMAL(10,2))) >= 26.4 AND (t2.machine LIKE \'%2%\') ORDER BY total_diff ASC LIMIT 1')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->fetchMachine()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:22:31 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3192): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:22:53 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3192): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:23:30 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3190): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:23:31 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3190): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:23:32 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3190): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:23:35 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3190): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:23:37 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3190): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:23:43 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3191): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:23:56 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3191): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:24:02 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3191): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:24:11 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3191): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:24:29 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3191): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:25:38 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3191): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:25:48 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3191): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:27:50 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3191): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:28:46 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3191): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:29:31 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3191): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:30:59 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3191): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 04:31:36 --> CodeIgniter\Exceptions\RuntimeException: View themes, no current section.
+[Method: GET, Route: pps/create]
+in SYSTEMPATH\View\View.php on line 430.
+ 1 APPPATH\Views\pps\create.php(3191): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\pps\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pps/create', [], true)
+ 5 APPPATH\Controllers\Pps.php(39): view('pps/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 08:03:37 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Decrypting: authentication failed.
+[Method: GET, Route: actual-activity/edit/ahIxJJxhC7k_jE_YyEX3xCuBeUvIDnhzo65RfpGHr0HBastwrVF_M77byudpA4vUv8c56kThlL8pZIQfwlq3a20dUi3owY7Ofw79T_6xVcUNpmY]
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 141.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(141): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Controllers\ActualActivity.php(235): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('mR-èÁŽÎýOþ±UÅ¦f')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->edit('ahIxJJxhC7k_jE_YyEX3xCuBeUvIDnhzo65RfpGHr0HBastwrVF_M77byudpA4vUv8c56kThlL8pZIQfwlq3a20dUi3owY7Ofw79T_6xVcUNpmY')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 09:31:39 --> ErrorException: Undefined variable $key
+[Method: GET, Route: login]
+in APPPATH\Controllers\Auth.php on line 21.
+ 1 APPPATH\Controllers\Auth.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Auth.php', 21)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-11 11:05:37 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: dcp/create/259]
+in APPPATH\Views\dcp\create.php on line 409.
+ 1 APPPATH\Views\dcp\create.php(409): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php', 409)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dcp\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dcp/create', [], true)
+ 5 APPPATH\Controllers\Dcp.php(347): view('dcp/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('259')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

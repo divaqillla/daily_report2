@@ -1,0 +1,1523 @@
+ERROR - 2025-02-14 03:05:29 --> mysqli_sql_exception: Unknown column 'another_activity' in 'group statement' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Project.php(28): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Project->index()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-02-14 03:05:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'another_activity' in 'group statement'
+[Method: GET, Route: project]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `projects`
+WHERE `status` = :status:
+GROUP BY `another_activity`', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Project.php(28): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Project->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 03:05:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'another_activity' in 'group statement'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `projects`
+WHERE `status` = 1
+GROUP BY `another_activity`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `projects`
+WHERE `status` = 1
+GROUP BY `another_activity`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `projects`
+WHERE `status` = :status:
+GROUP BY `another_activity`', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\Project.php(28): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Project->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 03:05:29 --> [Caused by] mysqli_sql_exception: Unknown column 'another_activity' in 'group statement'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `projects`
+WHERE `status` = 1
+GROUP BY `another_activity`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `projects`
+WHERE `status` = 1
+GROUP BY `another_activity`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `projects`
+WHERE `status` = 1
+GROUP BY `another_activity`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `projects`
+WHERE `status` = :status:
+GROUP BY `another_activity`', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Project.php(28): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Project->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 03:15:16 --> TypeError: Unsupported operand types: string + string
+[Method: POST, Route: project/store]
+in APPPATH\Controllers\Project.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Project->store()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Project))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-14 04:22:56 --> mysqli_sql_exception: Unknown column 'actual_activity.comment_by' in 'on clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ActualActivity.php(37): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\ActualActivity->indexPersonal()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-02-14 04:22:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'actual_activity.comment_by' in 'on clause'
+[Method: GET, Route: actual-activity/personal]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `comment_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`comment_by`
+WHERE `actual_activity`.`status` IN :actual_activity.status:
+AND `actual_activity`.`created_by` = :actual_activity.created_by:
+ORDER BY `actual_activity`.`dates` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ActualActivity.php(37): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->indexPersonal()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 04:22:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'actual_activity.comment_by' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` as `comment_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`comment_by`
+WHERE `actual_activity`.`status` IN (1,2)
+AND `actual_activity`.`created_by` = \'3\'
+ORDER BY `actual_activity`.`dates` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` as `comment_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`comment_by`
+WHERE `actual_activity`.`status` IN (1,2)
+AND `actual_activity`.`created_by` = \'3\'
+ORDER BY `actual_activity`.`dates` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `comment_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`comment_by`
+WHERE `actual_activity`.`status` IN :actual_activity.status:
+AND `actual_activity`.`created_by` = :actual_activity.created_by:
+ORDER BY `actual_activity`.`dates` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\ActualActivity.php(37): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->indexPersonal()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 04:22:56 --> [Caused by] mysqli_sql_exception: Unknown column 'actual_activity.comment_by' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_activity`.*, `users`.`nama` as `comment_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`comment_by`
+WHERE `actual_activity`.`status` IN (1,2)
+AND `actual_activity`.`created_by` = \'3\'
+ORDER BY `actual_activity`.`dates` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` as `comment_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`comment_by`
+WHERE `actual_activity`.`status` IN (1,2)
+AND `actual_activity`.`created_by` = \'3\'
+ORDER BY `actual_activity`.`dates` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` as `comment_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`comment_by`
+WHERE `actual_activity`.`status` IN (1,2)
+AND `actual_activity`.`created_by` = \'3\'
+ORDER BY `actual_activity`.`dates` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `comment_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`comment_by`
+WHERE `actual_activity`.`status` IN :actual_activity.status:
+AND `actual_activity`.`created_by` = :actual_activity.created_by:
+ORDER BY `actual_activity`.`dates` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ActualActivity.php(37): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->indexPersonal()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-14 04:33:54 --> mysqli_sql_exception: Unknown column 'jenis_project' in 'group statement' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ActualActivity.php(62): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\ActualActivity->create()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-02-14 04:33:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jenis_project' in 'group statement'
+[Method: GET, Route: actual-activity/create]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `projects`
+WHERE `status` = :status:
+GROUP BY `another_project`, `jenis_project`', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ActualActivity.php(62): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->create()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 04:33:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'jenis_project' in 'group statement'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `projects`
+WHERE `status` = 1
+GROUP BY `another_project`, `jenis_project`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `projects`
+WHERE `status` = 1
+GROUP BY `another_project`, `jenis_project`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `projects`
+WHERE `status` = :status:
+GROUP BY `another_project`, `jenis_project`', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\ActualActivity.php(62): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->create()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 04:33:54 --> [Caused by] mysqli_sql_exception: Unknown column 'jenis_project' in 'group statement'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *
+FROM `projects`
+WHERE `status` = 1
+GROUP BY `another_project`, `jenis_project`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `projects`
+WHERE `status` = 1
+GROUP BY `another_project`, `jenis_project`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `projects`
+WHERE `status` = 1
+GROUP BY `another_project`, `jenis_project`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `projects`
+WHERE `status` = :status:
+GROUP BY `another_project`, `jenis_project`', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ActualActivity.php(62): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->create()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 05:54:51 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in D:\Project Lintang\PROJEK\daily_report2\system\Model.php on line 928
+[Method: GET, Route: actual-activity/fetchModels]
+in SYSTEMPATH\Database\BaseBuilder.php on line 403.
+ 1 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->select('model', 'jenis_tooling')
+ 2 APPPATH\Controllers\ActualActivity.php(91): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->fetchModels()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 05:54:57 --> TypeError: CodeIgniter\Database\BaseBuilder::select(): Argument #2 ($escape) must be of type ?bool, string given, called in D:\Project Lintang\PROJEK\daily_report2\system\Model.php on line 928
+[Method: GET, Route: actual-activity/fetchModels]
+in SYSTEMPATH\Database\BaseBuilder.php on line 403.
+ 1 SYSTEMPATH\Model.php(928): CodeIgniter\Database\BaseBuilder->select('model', 'jenis_tooling')
+ 2 APPPATH\Controllers\ActualActivity.php(91): CodeIgniter\Model->__call('select', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->fetchModels()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 06:36:11 --> ErrorException: Undefined array key "comment_by_name"
+[Method: GET, Route: actual-activity]
+in APPPATH\Views\actual_activity\index.php on line 64.
+ 1 APPPATH\Views\actual_activity\index.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comment_by_name"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\actual_activity\\index.php', 64)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\actual_activity\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('actual_activity/index', [], true)
+ 5 APPPATH\Controllers\ActualActivity.php(24): view('actual_activity/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:09:16 --> ErrorException: Undefined array key "comment_by_name"
+[Method: GET, Route: actual-activity]
+in APPPATH\Views\actual_activity\index.php on line 76.
+ 1 APPPATH\Views\actual_activity\index.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "comment_by_name"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\actual_activity\\index.php', 76)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\actual_activity\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('actual_activity/index', [], true)
+ 5 APPPATH\Controllers\ActualActivity.php(48): view('actual_activity/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-14 07:12:23 --> mysqli_sql_exception: Illegal parameter data types int and row for operation '=' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#15 {main}
+CRITICAL - 2025-02-14 07:12:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+[Method: GET, Route: actual-activity]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = :actual_activity.status:
+AND `users`.`status` = :users.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:12:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = 1
+AND `users`.`status` = (1,7)
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = 1
+AND `users`.`status` = (1,7)
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = :actual_activity.status:
+AND `users`.`status` = :users.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:12:23 --> [Caused by] mysqli_sql_exception: Illegal parameter data types int and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = 1
+AND `users`.`status` = (1,7)
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = 1
+AND `users`.`status` = (1,7)
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = 1
+AND `users`.`status` = (1,7)
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = :actual_activity.status:
+AND `users`.`status` = :users.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-14 07:12:52 --> mysqli_sql_exception: Illegal parameter data types tinyint and row for operation '=' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#15 {main}
+CRITICAL - 2025-02-14 07:12:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types tinyint and row for operation '='
+[Method: GET, Route: actual-activity]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = :actual_activity.status:
+AND `users`.`status` = :users.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:12:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types tinyint and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = :actual_activity.status:
+AND `users`.`status` = :users.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:12:52 --> [Caused by] mysqli_sql_exception: Illegal parameter data types tinyint and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = :actual_activity.status:
+AND `users`.`status` = :users.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-14 07:13:13 --> mysqli_sql_exception: Illegal parameter data types tinyint and row for operation '=' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#15 {main}
+CRITICAL - 2025-02-14 07:13:13 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types tinyint and row for operation '='
+[Method: GET, Route: actual-activity]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = :actual_activity.status:
+AND `users`.`status` = :users.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:13:13 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types tinyint and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = :actual_activity.status:
+AND `users`.`status` = :users.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:13:13 --> [Caused by] mysqli_sql_exception: Illegal parameter data types tinyint and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = :actual_activity.status:
+AND `users`.`status` = :users.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-14 07:13:18 --> mysqli_sql_exception: Illegal parameter data types tinyint and row for operation '=' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#15 {main}
+CRITICAL - 2025-02-14 07:13:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types tinyint and row for operation '='
+[Method: GET, Route: actual-activity]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = :actual_activity.status:
+AND `users`.`status` = :users.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:13:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types tinyint and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = :actual_activity.status:
+AND `users`.`status` = :users.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:13:18 --> [Caused by] mysqli_sql_exception: Illegal parameter data types tinyint and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = (1,7)
+AND `users`.`status` = 1
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`status` = :actual_activity.status:
+AND `users`.`status` = :users.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\ActualActivityModel.php(17): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\ActualActivity.php(23): App\Models\ActualActivityModel->getActivitiesWithUsers()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-14 07:14:55 --> mysqli_sql_exception: Illegal parameter data types tinyint and row for operation '=' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ActualActivity.php(43): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-02-14 07:14:55 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types tinyint and row for operation '='
+[Method: GET, Route: actual-activity]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = :users.status:
+AND   (
+`actual_activity`.`status` = :actual_activity.status:
+ )
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ActualActivity.php(43): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:14:55 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types tinyint and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = 1
+AND   (
+`actual_activity`.`status` = (1,7)
+ )
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = 1
+AND   (
+`actual_activity`.`status` = (1,7)
+ )
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = :users.status:
+AND   (
+`actual_activity`.`status` = :actual_activity.status:
+ )
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\ActualActivity.php(43): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:14:55 --> [Caused by] mysqli_sql_exception: Illegal parameter data types tinyint and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = 1
+AND   (
+`actual_activity`.`status` = (1,7)
+ )
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = 1
+AND   (
+`actual_activity`.`status` = (1,7)
+ )
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = 1
+AND   (
+`actual_activity`.`status` = (1,7)
+ )
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = :users.status:
+AND   (
+`actual_activity`.`status` = :actual_activity.status:
+ )
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ActualActivity.php(43): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:15:03 --> ParseError: syntax error, unexpected token "if"
+[Method: GET, Route: actual-activity]
+in APPPATH\Controllers\ActualActivity.php on line 33.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(295): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\ActualActivity.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(271): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ActualActivity')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ActualActivity')
+ 4 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\ActualActivity', true)
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-14 07:15:08 --> mysqli_sql_exception: Illegal parameter data types tinyint and row for operation '=' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\ActualActivity.php(41): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-02-14 07:15:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types tinyint and row for operation '='
+[Method: GET, Route: actual-activity]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = :users.status:
+AND `actual_activity`.`status` = :actual_activity.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ActualActivity.php(41): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:15:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Illegal parameter data types tinyint and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = 1
+AND `actual_activity`.`status` = (1,7)
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = 1
+AND `actual_activity`.`status` = (1,7)
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = :users.status:
+AND `actual_activity`.`status` = :actual_activity.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\ActualActivity.php(41): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:15:08 --> [Caused by] mysqli_sql_exception: Illegal parameter data types tinyint and row for operation '='
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = 1
+AND `actual_activity`.`status` = (1,7)
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = 1
+AND `actual_activity`.`status` = (1,7)
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = 1
+AND `actual_activity`.`status` = (1,7)
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` AS `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `users`.`status` = :users.status:
+AND `actual_activity`.`status` = :actual_activity.status:
+ORDER BY `actual_activity`.`dates` DESC, `actual_activity`.`modified_at` ASC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\ActualActivity.php(41): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:24:46 --> ParseError: syntax error, unexpected token ":"
+[Method: GET, Route: actual-activity/personal]
+in APPPATH\Views\actual_activity\indexPersonal.php on line 59.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('actual_activity/indexPersonal', [], true)
+ 3 APPPATH\Controllers\ActualActivity.php(52): view('actual_activity/indexPersonal', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->indexPersonal()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:34:02 --> ErrorException: Undefined array key "nama"
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(36): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:34:05 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(36): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-14 07:35:35 --> mysqli_sql_exception: Unknown table 'daily_report.izin' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `izin`.*...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\IzinController->index()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-02-14 07:35:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'daily_report.izin'
+[Method: GET, Route: izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:35:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'daily_report.izin'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:35:35 --> [Caused by] mysqli_sql_exception: Unknown table 'daily_report.izin'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-14 07:35:43 --> mysqli_sql_exception: Unknown table 'daily_report.izin' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `izin`.*...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\IzinController->index()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-02-14 07:35:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'daily_report.izin'
+[Method: GET, Route: izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:35:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'daily_report.izin'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:35:43 --> [Caused by] mysqli_sql_exception: Unknown table 'daily_report.izin'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-14 07:35:50 --> mysqli_sql_exception: Unknown table 'daily_report.izin' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `izin`.*...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\IzinController->index()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-02-14 07:35:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'daily_report.izin'
+[Method: GET, Route: izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:35:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'daily_report.izin'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:35:50 --> [Caused by] mysqli_sql_exception: Unknown table 'daily_report.izin'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-14 07:36:14 --> mysqli_sql_exception: Unknown table 'daily_report.izin' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `izin`.*...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\IzinController->index()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-02-14 07:36:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'daily_report.izin'
+[Method: GET, Route: izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:36:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'daily_report.izin'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:36:14 --> [Caused by] mysqli_sql_exception: Unknown table 'daily_report.izin'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-14 07:36:51 --> mysqli_sql_exception: Unknown table 'daily_report.izin' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `izin`.*...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\IzinController->index()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-02-14 07:36:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'daily_report.izin'
+[Method: GET, Route: izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama` as `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:36:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'daily_report.izin'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*, `users`.`nama` as `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*, `users`.`nama` as `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama` as `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 07:36:51 --> [Caused by] mysqli_sql_exception: Unknown table 'daily_report.izin'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `izin`.*, `users`.`nama` as `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `izin`.*, `users`.`nama` as `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `izin`.*, `users`.`nama` as `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN (3,4,5,6)
+ORDER BY `izin`.`dates` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `izin`.*, `users`.`nama` as `created_by_name`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `izin`.`created_by`
+WHERE `izin`.`status` IN :izin.status:
+ORDER BY `izin`.`dates` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\IzinController.php(29): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-14 08:28:01 --> ErrorException: Undefined array key "created_by_name"
+[Method: GET, Route: actual-activity]
+in APPPATH\Views\actual_activity\index.php on line 66.
+ 1 APPPATH\Views\actual_activity\index.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_by_name"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\actual_activity\\index.php', 66)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\actual_activity\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('actual_activity/index', [], true)
+ 5 APPPATH\Controllers\ActualActivity.php(31): view('actual_activity/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

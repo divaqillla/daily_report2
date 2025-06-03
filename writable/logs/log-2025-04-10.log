@@ -1,0 +1,55 @@
+CRITICAL - 2025-04-10 04:20:22 --> ErrorException: Undefined array key "capacity"
+[Method: POST, Route: machine-match/checkMatch]
+in APPPATH\Controllers\Pps.php on line 2561.
+ 1 APPPATH\Controllers\Pps.php(2561): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "capacity"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 2561)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->checkMatch()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-10 04:21:24 --> ErrorException: Undefined array key "capacity"
+[Method: POST, Route: machine-match/checkMatch]
+in APPPATH\Controllers\Pps.php on line 2561.
+ 1 APPPATH\Controllers\Pps.php(2561): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "capacity"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 2561)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->checkMatch()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-10 04:21:38 --> ErrorException: Undefined array key "capacity"
+[Method: POST, Route: machine-match/checkMatch]
+in APPPATH\Controllers\Pps.php on line 2561.
+ 1 APPPATH\Controllers\Pps.php(2561): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "capacity"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Pps.php', 2561)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pps->checkMatch()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pps))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-10 10:40:52 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: dcp/create/227]
+in APPPATH\Controllers\Dcp.php on line 83.
+ 1 APPPATH\Controllers\Dcp.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('227')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-04-10 10:40:56 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: dcp/create/227]
+in APPPATH\Controllers\Dcp.php on line 83.
+ 1 APPPATH\Controllers\Dcp.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dcp.php', 83)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dcp->create('227')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dcp))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

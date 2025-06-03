@@ -1,0 +1,883 @@
+CRITICAL - 2025-02-18 00:53:27 --> ErrorException: Undefined array key "nik"
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nik"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(38): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 00:53:29 --> ErrorException: Undefined array key "nik"
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nik"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(38): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 00:53:33 --> ErrorException: Undefined array key "nik"
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nik"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(38): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:24:42 --> ErrorException: Undefined array key "nik"
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nik"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(38): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:24:47 --> ErrorException: Undefined array key "nik"
+[Method: GET, Route: izin]
+in APPPATH\Views\izin\index.php on line 44.
+ 1 APPPATH\Views\izin\index.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nik"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php', 44)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\izin\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('izin/index', [], true)
+ 5 APPPATH\Controllers\IzinController.php(38): view('izin/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-18 01:26:31 --> mysqli_sql_exception: Duplicate entry '123' for key 'nik' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(750): CodeIgniter\Model->insert(Array, false)
+#8 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\UserController.php(88): CodeIgniter\BaseModel->save(Array)
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\UserController->store()
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#16 {main}
+CRITICAL - 2025-02-18 01:26:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '123' for key 'nik'
+[Method: POST, Route: user/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (:nama:, :nik:, :password:, :email:, :department:, :role_id:, :foto:, :created_at:, :created_by:, :modified_by:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(88): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:26:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '123' for key 'nik'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$HflxXb7dk2Rn.70LkAhs4OcAJPho.AUZAkZ2Z1uA7kvN9Nc6EU0LO\', \'\', \'\', \'1\', \'\', \'2025-02-18 01:26:31\', \'3\', \'3\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$HflxXb7dk2Rn.70LkAhs4OcAJPho.AUZAkZ2Z1uA7kvN9Nc6EU0LO\', \'\', \'\', \'1\', \'\', \'2025-02-18 01:26:31\', \'3\', \'3\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (:nama:, :nik:, :password:, :email:, :department:, :role_id:, :foto:, :created_at:, :created_by:, :modified_by:, :status:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\UserController.php(88): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:26:31 --> [Caused by] mysqli_sql_exception: Duplicate entry '123' for key 'nik'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$HflxXb7dk2Rn.70LkAhs4OcAJPho.AUZAkZ2Z1uA7kvN9Nc6EU0LO\', \'\', \'\', \'1\', \'\', \'2025-02-18 01:26:31\', \'3\', \'3\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$HflxXb7dk2Rn.70LkAhs4OcAJPho.AUZAkZ2Z1uA7kvN9Nc6EU0LO\', \'\', \'\', \'1\', \'\', \'2025-02-18 01:26:31\', \'3\', \'3\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$HflxXb7dk2Rn.70LkAhs4OcAJPho.AUZAkZ2Z1uA7kvN9Nc6EU0LO\', \'\', \'\', \'1\', \'\', \'2025-02-18 01:26:31\', \'3\', \'3\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (:nama:, :nik:, :password:, :email:, :department:, :role_id:, :foto:, :created_at:, :created_by:, :modified_by:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\UserController.php(88): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->store()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-18 01:26:45 --> mysqli_sql_exception: Duplicate entry '123' for key 'nik' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(750): CodeIgniter\Model->insert(Array, false)
+#8 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\UserController.php(88): CodeIgniter\BaseModel->save(Array)
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\UserController->store()
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#16 {main}
+CRITICAL - 2025-02-18 01:26:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '123' for key 'nik'
+[Method: POST, Route: user/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (:nama:, :nik:, :password:, :email:, :department:, :role_id:, :foto:, :created_at:, :created_by:, :modified_by:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(88): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:26:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '123' for key 'nik'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$8I2fN8OwrQWvzYlhyjFPJerD8V9Jd1CiAsoOsAoHD83.cQ8q.cobe\', \'admin@gmail.com\', \'123\', \'1\', \'\', \'2025-02-18 01:26:45\', \'3\', \'3\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$8I2fN8OwrQWvzYlhyjFPJerD8V9Jd1CiAsoOsAoHD83.cQ8q.cobe\', \'admin@gmail.com\', \'123\', \'1\', \'\', \'2025-02-18 01:26:45\', \'3\', \'3\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (:nama:, :nik:, :password:, :email:, :department:, :role_id:, :foto:, :created_at:, :created_by:, :modified_by:, :status:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\UserController.php(88): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:26:45 --> [Caused by] mysqli_sql_exception: Duplicate entry '123' for key 'nik'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$8I2fN8OwrQWvzYlhyjFPJerD8V9Jd1CiAsoOsAoHD83.cQ8q.cobe\', \'admin@gmail.com\', \'123\', \'1\', \'\', \'2025-02-18 01:26:45\', \'3\', \'3\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$8I2fN8OwrQWvzYlhyjFPJerD8V9Jd1CiAsoOsAoHD83.cQ8q.cobe\', \'admin@gmail.com\', \'123\', \'1\', \'\', \'2025-02-18 01:26:45\', \'3\', \'3\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$8I2fN8OwrQWvzYlhyjFPJerD8V9Jd1CiAsoOsAoHD83.cQ8q.cobe\', \'admin@gmail.com\', \'123\', \'1\', \'\', \'2025-02-18 01:26:45\', \'3\', \'3\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (:nama:, :nik:, :password:, :email:, :department:, :role_id:, :foto:, :created_at:, :created_by:, :modified_by:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\UserController.php(88): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->store()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-18 01:27:10 --> mysqli_sql_exception: Column 'created_by' in where clause is ambiguous in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\IzinController.php(37): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\IzinController->index()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-02-18 01:27:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'created_by' in where clause is ambiguous
+[Method: GET, Route: izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `created_by` = :created_by:
+AND `status` IN :status:
+ORDER BY `dates` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\IzinController.php(37): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:27:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'created_by' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `created_by` = :created_by:
+AND `status` IN :status:
+ORDER BY `dates` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\IzinController.php(37): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:27:10 --> [Caused by] mysqli_sql_exception: Column 'created_by' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `created_by` = :created_by:
+AND `status` IN :status:
+ORDER BY `dates` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\IzinController.php(37): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-18 01:28:19 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\IzinController.php(37): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\IzinController->index()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-02-18 01:28:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'status' in where clause is ambiguous
+[Method: GET, Route: izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = :actual_activity.created_by:
+AND `status` IN :status:
+ORDER BY `dates` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\IzinController.php(37): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:28:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = :actual_activity.created_by:
+AND `status` IN :status:
+ORDER BY `dates` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\IzinController.php(37): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:28:19 --> [Caused by] mysqli_sql_exception: Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = :actual_activity.created_by:
+AND `status` IN :status:
+ORDER BY `dates` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\IzinController.php(37): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-18 01:28:21 --> mysqli_sql_exception: Column 'status' in where clause is ambiguous in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\IzinController.php(37): CodeIgniter\BaseModel->findAll()
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\IzinController->index()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#14 {main}
+CRITICAL - 2025-02-18 01:28:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'status' in where clause is ambiguous
+[Method: GET, Route: izin]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = :actual_activity.created_by:
+AND `status` IN :status:
+ORDER BY `dates` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\IzinController.php(37): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:28:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = :actual_activity.created_by:
+AND `status` IN :status:
+ORDER BY `dates` DESC', [...], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\IzinController.php(37): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:28:21 --> [Caused by] mysqli_sql_exception: Column 'status' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = \'3\'
+AND `status` IN (3,4,5,6)
+ORDER BY `dates` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `actual_activity`.*, `users`.`nama` as `nama`, `users`.`nik`
+FROM `actual_activity`
+LEFT JOIN `users` ON `users`.`id` = `actual_activity`.`created_by`
+WHERE `actual_activity`.`created_by` = :actual_activity.created_by:
+AND `status` IN :status:
+ORDER BY `dates` DESC', [...], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\IzinController.php(37): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IzinController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IzinController))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-18 01:29:50 --> mysqli_sql_exception: Duplicate entry '123' for key 'nik' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `us...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(839): CodeIgniter\Model->doInsert(Array)
+#6 D:\Project Lintang\PROJEK\daily_report2\system\Model.php(800): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\BaseModel.php(750): CodeIgniter\Model->insert(Array, false)
+#8 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\UserController.php(88): CodeIgniter\BaseModel->save(Array)
+#9 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\UserController->store()
+#10 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#13 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#16 {main}
+CRITICAL - 2025-02-18 01:29:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '123' for key 'nik'
+[Method: POST, Route: user/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (:nama:, :nik:, :password:, :email:, :department:, :role_id:, :foto:, :created_at:, :created_by:, :modified_by:, :status:)', [...], false)
+ 2 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(88): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:29:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '123' for key 'nik'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$uLL6zNWIQj0BsRWVL5KFOusK2a.PuKCjwpVAJKOaHn.L8AfphHPbS\', \'admin@gmail.com\', \'123\', \'1\', \'\', \'2025-02-18 01:29:49\', \'3\', \'3\', 1)')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$uLL6zNWIQj0BsRWVL5KFOusK2a.PuKCjwpVAJKOaHn.L8AfphHPbS\', \'admin@gmail.com\', \'123\', \'1\', \'\', \'2025-02-18 01:29:49\', \'3\', \'3\', 1)')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (:nama:, :nik:, :password:, :email:, :department:, :role_id:, :foto:, :created_at:, :created_by:, :modified_by:, :status:)', [...], false)
+ 4 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\UserController.php(88): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->store()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 01:29:50 --> [Caused by] mysqli_sql_exception: Duplicate entry '123' for key 'nik'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$uLL6zNWIQj0BsRWVL5KFOusK2a.PuKCjwpVAJKOaHn.L8AfphHPbS\', \'admin@gmail.com\', \'123\', \'1\', \'\', \'2025-02-18 01:29:49\', \'3\', \'3\', 1)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$uLL6zNWIQj0BsRWVL5KFOusK2a.PuKCjwpVAJKOaHn.L8AfphHPbS\', \'admin@gmail.com\', \'123\', \'1\', \'\', \'2025-02-18 01:29:49\', \'3\', \'3\', 1)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (\'test\', \'123\', \'$2y$10$uLL6zNWIQj0BsRWVL5KFOusK2a.PuKCjwpVAJKOaHn.L8AfphHPbS\', \'admin@gmail.com\', \'123\', \'1\', \'\', \'2025-02-18 01:29:49\', \'3\', \'3\', 1)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`nama`, `nik`, `password`, `email`, `department`, `role_id`, `foto`, `created_at`, `created_by`, `modified_by`, `status`) VALUES (:nama:, :nik:, :password:, :email:, :department:, :role_id:, :foto:, :created_at:, :created_by:, :modified_by:, :status:)', [...], false)
+ 5 SYSTEMPATH\Model.php(394): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(839): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(800): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\UserController.php(88): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->store()
+11 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+12 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+16 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 03:20:33 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard\index.php on line 55.
+ 1 APPPATH\Views\dashboard\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(75): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 03:20:42 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard\index.php on line 55.
+ 1 APPPATH\Views\dashboard\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(75): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 03:20:54 --> ErrorException: Undefined variable $categories
+[Method: GET, Route: dashboard]
+in APPPATH\Views\dashboard\index.php on line 55.
+ 1 APPPATH\Views\dashboard\index.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php', 55)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(75): view('dashboard/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 03:21:55 --> ErrorException: Undefined variable $db
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 54.
+ 1 APPPATH\Controllers\Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 03:22:14 --> ErrorException: Undefined variable $db
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 54.
+ 1 APPPATH\Controllers\Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 03:22:15 --> ErrorException: Undefined variable $db
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 54.
+ 1 APPPATH\Controllers\Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 03:22:21 --> ErrorException: Undefined variable $db
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 54.
+ 1 APPPATH\Controllers\Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 03:22:58 --> ErrorException: Undefined variable $db
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 54.
+ 1 APPPATH\Controllers\Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 03:22:59 --> ErrorException: Undefined variable $db
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 54.
+ 1 APPPATH\Controllers\Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 03:22:59 --> ErrorException: Undefined variable $db
+[Method: GET, Route: dashboard]
+in APPPATH\Controllers\Dashboard.php on line 54.
+ 1 APPPATH\Controllers\Dashboard.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\Dashboard.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-18 04:32:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS part_no,
+                   (NULLIF(p.process, '-') AS process,
+        ...' at line 4 in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('\r\n            S...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('\r\n            S...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n            S...')
+#3 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\Dashboard.php(240): CodeIgniter\Database\BaseConnection->query('\r\n            S...', Array)
+#4 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('D26A')
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#11 {main}
+CRITICAL - 2025-02-18 04:32:26 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS part_no,
+                   (NULLIF(p.process, '-') AS process,
+        ...' at line 4
+[Method: GET, Route: dashboard/projectDetail/D26A]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 APPPATH\Controllers\Dashboard.php(240): CodeIgniter\Database\BaseConnection->query('
+            SELECT 
+                d.id AS detail_id,
+                COALESCE(NULLIF(p.model, \'\'), p.another_project) AS project_name,
+                (NULLIF(p.part_no, \'-\') AS part_no,
+                   (NULLIF(p.process, \'-\') AS process,
+                a.name AS activity_name,
+                u.nama AS created_by,
+                d.total_time
+            FROM actual_activity_detail d
+            JOIN activities a ON d.activity_id = a.id
+            JOIN projects p ON d.project_id = p.id
+            JOIN users u ON d.created_by = u.id
+            WHERE (p.model = ? OR p.another_project = ?) AND d.status = 1 
+         AND d.created_at BETWEEN ? AND ?', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('D26A')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 04:32:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS part_no,
+                   (NULLIF(p.process, '-') AS process,
+        ...' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT 
+                d.id AS detail_id,
+                COALESCE(NULLIF(p.model, \'\'), p.another_project) AS project_name,
+                (NULLIF(p.part_no, \'-\') AS part_no,
+                   (NULLIF(p.process, \'-\') AS process,
+                a.name AS activity_name,
+                u.nama AS created_by,
+                d.total_time
+            FROM actual_activity_detail d
+            JOIN activities a ON d.activity_id = a.id
+            JOIN projects p ON d.project_id = p.id
+            JOIN users u ON d.created_by = u.id
+            WHERE (p.model = \'D26A\' OR p.another_project = \'D26A\') AND d.status = 1 
+         AND d.created_at BETWEEN \'2025-02-01\' AND \'2025-02-28\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT 
+                d.id AS detail_id,
+                COALESCE(NULLIF(p.model, \'\'), p.another_project) AS project_name,
+                (NULLIF(p.part_no, \'-\') AS part_no,
+                   (NULLIF(p.process, \'-\') AS process,
+                a.name AS activity_name,
+                u.nama AS created_by,
+                d.total_time
+            FROM actual_activity_detail d
+            JOIN activities a ON d.activity_id = a.id
+            JOIN projects p ON d.project_id = p.id
+            JOIN users u ON d.created_by = u.id
+            WHERE (p.model = \'D26A\' OR p.another_project = \'D26A\') AND d.status = 1 
+         AND d.created_at BETWEEN \'2025-02-01\' AND \'2025-02-28\'')
+ 3 APPPATH\Controllers\Dashboard.php(240): CodeIgniter\Database\BaseConnection->query('
+            SELECT 
+                d.id AS detail_id,
+                COALESCE(NULLIF(p.model, \'\'), p.another_project) AS project_name,
+                (NULLIF(p.part_no, \'-\') AS part_no,
+                   (NULLIF(p.process, \'-\') AS process,
+                a.name AS activity_name,
+                u.nama AS created_by,
+                d.total_time
+            FROM actual_activity_detail d
+            JOIN activities a ON d.activity_id = a.id
+            JOIN projects p ON d.project_id = p.id
+            JOIN users u ON d.created_by = u.id
+            WHERE (p.model = ? OR p.another_project = ?) AND d.status = 1 
+         AND d.created_at BETWEEN ? AND ?', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('D26A')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-18 04:32:26 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS part_no,
+                   (NULLIF(p.process, '-') AS process,
+        ...' at line 4
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('
+            SELECT 
+                d.id AS detail_id,
+                COALESCE(NULLIF(p.model, \'\'), p.another_project) AS project_name,
+                (NULLIF(p.part_no, \'-\') AS part_no,
+                   (NULLIF(p.process, \'-\') AS process,
+                a.name AS activity_name,
+                u.nama AS created_by,
+                d.total_time
+            FROM actual_activity_detail d
+            JOIN activities a ON d.activity_id = a.id
+            JOIN projects p ON d.project_id = p.id
+            JOIN users u ON d.created_by = u.id
+            WHERE (p.model = \'D26A\' OR p.another_project = \'D26A\') AND d.status = 1 
+         AND d.created_at BETWEEN \'2025-02-01\' AND \'2025-02-28\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('
+            SELECT 
+                d.id AS detail_id,
+                COALESCE(NULLIF(p.model, \'\'), p.another_project) AS project_name,
+                (NULLIF(p.part_no, \'-\') AS part_no,
+                   (NULLIF(p.process, \'-\') AS process,
+                a.name AS activity_name,
+                u.nama AS created_by,
+                d.total_time
+            FROM actual_activity_detail d
+            JOIN activities a ON d.activity_id = a.id
+            JOIN projects p ON d.project_id = p.id
+            JOIN users u ON d.created_by = u.id
+            WHERE (p.model = \'D26A\' OR p.another_project = \'D26A\') AND d.status = 1 
+         AND d.created_at BETWEEN \'2025-02-01\' AND \'2025-02-28\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('
+            SELECT 
+                d.id AS detail_id,
+                COALESCE(NULLIF(p.model, \'\'), p.another_project) AS project_name,
+                (NULLIF(p.part_no, \'-\') AS part_no,
+                   (NULLIF(p.process, \'-\') AS process,
+                a.name AS activity_name,
+                u.nama AS created_by,
+                d.total_time
+            FROM actual_activity_detail d
+            JOIN activities a ON d.activity_id = a.id
+            JOIN projects p ON d.project_id = p.id
+            JOIN users u ON d.created_by = u.id
+            WHERE (p.model = \'D26A\' OR p.another_project = \'D26A\') AND d.status = 1 
+         AND d.created_at BETWEEN \'2025-02-01\' AND \'2025-02-28\'')
+ 4 APPPATH\Controllers\Dashboard.php(240): CodeIgniter\Database\BaseConnection->query('
+            SELECT 
+                d.id AS detail_id,
+                COALESCE(NULLIF(p.model, \'\'), p.another_project) AS project_name,
+                (NULLIF(p.part_no, \'-\') AS part_no,
+                   (NULLIF(p.process, \'-\') AS process,
+                a.name AS activity_name,
+                u.nama AS created_by,
+                d.total_time
+            FROM actual_activity_detail d
+            JOIN activities a ON d.activity_id = a.id
+            JOIN projects p ON d.project_id = p.id
+            JOIN users u ON d.created_by = u.id
+            WHERE (p.model = ? OR p.another_project = ?) AND d.status = 1 
+         AND d.created_at BETWEEN ? AND ?', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->projectDetail('D26A')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')

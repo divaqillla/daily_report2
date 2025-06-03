@@ -1,0 +1,164 @@
+<?php return array (
+  'search' => 
+  array (
+    'Config/Services' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\xampp\\htdocs\\daily_report2\\app\\Config\\Services.php',
+          1 => 'C:\\xampp\\htdocs\\daily_report2\\system\\Config\\Services.php',
+        ),
+      ),
+    ),
+    'Config/Registrar.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+        ),
+      ),
+    ),
+    'Helpers/kint_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\xampp\\htdocs\\daily_report2\\system\\Helpers\\kint_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/url_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\xampp\\htdocs\\daily_report2\\system\\Helpers\\url_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/permission_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\xampp\\htdocs\\daily_report2\\app\\Helpers\\permission_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/form_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\xampp\\htdocs\\daily_report2\\system\\Helpers\\form_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/session_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+        ),
+      ),
+    ),
+    'Helpers/custom_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\xampp\\htdocs\\daily_report2\\app\\Helpers\\Custom_helper.php',
+        ),
+      ),
+    ),
+    'Helpers/urlsafe_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\xampp\\htdocs\\daily_report2\\app\\Helpers\\urlsafe_helper.php',
+        ),
+      ),
+    ),
+    'Config/Events.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\xampp\\htdocs\\daily_report2\\app\\Config\\Events.php',
+        ),
+      ),
+    ),
+    'Config/Filters.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\xampp\\htdocs\\daily_report2\\app\\Config\\Filters.php',
+          1 => 'C:\\xampp\\htdocs\\daily_report2\\system\\Config\\Filters.php',
+        ),
+      ),
+    ),
+    'Helpers/array_helper' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\xampp\\htdocs\\daily_report2\\system\\Helpers\\array_helper.php',
+        ),
+      ),
+    ),
+    'Config/Routes.php' => 
+    array (
+      'php' => 
+      array (
+        1 => 
+        array (
+          0 => 'C:\\xampp\\htdocs\\daily_report2\\app\\Config\\Routes.php',
+        ),
+      ),
+    ),
+    'Language/en/HTTP.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => 'C:\\xampp\\htdocs\\daily_report2\\system\\Language\\en\\HTTP.php',
+        ),
+      ),
+    ),
+    'Language/en/Errors.php' => 
+    array (
+      'php' => 
+      array (
+        0 => 
+        array (
+          0 => 'C:\\xampp\\htdocs\\daily_report2\\system\\Language\\en\\Errors.php',
+        ),
+      ),
+    ),
+  ),
+  'findQualifiedNameFromPath' => 
+  array (
+    'C:\\xampp\\htdocs\\daily_report2\\app\\Config\\Services.php' => 'Config\\Services',
+  ),
+  'getClassname' => 
+  array (
+    'C:\\xampp\\htdocs\\daily_report2\\app\\Config\\Filters.php' => 'Config\\Filters',
+    'C:\\xampp\\htdocs\\daily_report2\\system\\Config\\Filters.php' => 'CodeIgniter\\Config\\Filters',
+  ),
+);

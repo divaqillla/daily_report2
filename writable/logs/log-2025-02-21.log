@@ -1,0 +1,1891 @@
+CRITICAL - 2025-02-21 01:01:57 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 273.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 3 APPPATH\Controllers\OutdoorActivity.php(94): view('outdoor_activity/display', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:02:13 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 273.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 3 APPPATH\Controllers\OutdoorActivity.php(94): view('outdoor_activity/display', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:02:23 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 272.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 3 APPPATH\Controllers\OutdoorActivity.php(94): view('outdoor_activity/display', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:02:24 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 272.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 3 APPPATH\Controllers\OutdoorActivity.php(94): view('outdoor_activity/display', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:03:59 --> ParseError: syntax error, unexpected token "endforeach", expecting end of file
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 276.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 3 APPPATH\Controllers\OutdoorActivity.php(94): view('outdoor_activity/display', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:04:44 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 363.
+ 1 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 3 APPPATH\Controllers\OutdoorActivity.php(94): view('outdoor_activity/display', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:05:16 --> ErrorException: Undefined variable $groupNum
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 204.
+ 1 APPPATH\Views\outdoor_activity\display.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $groupNum', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 204)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(94): view('outdoor_activity/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:05:17 --> ErrorException: Undefined variable $groupNum
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 204.
+ 1 APPPATH\Views\outdoor_activity\display.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $groupNum', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 204)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(94): view('outdoor_activity/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:05:30 --> ErrorException: Undefined variable $groupNum
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 204.
+ 1 APPPATH\Views\outdoor_activity\display.php(204): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $groupNum', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 204)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(94): view('outdoor_activity/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:11:38 --> ErrorException: Undefined variable $user
+[Method: GET, Route: user/create]
+in APPPATH\Views\user\create.php on line 77.
+ 1 APPPATH\Views\user\create.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\user\\create.php', 77)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\user\\create.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('user/create', [], true)
+ 5 APPPATH\Controllers\UserController.php(61): view('user/create', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\UserController->create()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 01:23:19 --> mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`....', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 01:23:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:19 --> [Caused by] mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 01:23:26 --> mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`....', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 01:23:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:26 --> [Caused by] mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 01:23:40 --> mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`....', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 01:23:40 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:40 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:40 --> [Caused by] mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 01:23:45 --> mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`....', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 01:23:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:45 --> [Caused by] mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 01:23:46 --> mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`....', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 01:23:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:46 --> [Caused by] mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 01:23:51 --> mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`....', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 01:23:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:51 --> [Caused by] mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 01:23:51 --> mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`....', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 01:23:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:51 --> [Caused by] mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 01:23:52 --> mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`....', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 01:23:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:23:52 --> [Caused by] mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 01:24:00 --> mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`....', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 01:24:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:24:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:24:00 --> [Caused by] mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 01:24:01 --> mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`....', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`....')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`....')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`....', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 01:24:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+[Method: GET, Route: outdoor-activity/display]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:24:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:24:01 --> [Caused by] mysqli_sql_exception: Unknown column 'users.foto outdoor_activities.id' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = 1
+AND users.group != 0
+ORDER BY `users`.`group`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `users`.`nik`, `users`.`id`, `users`.`nickname` as `name`, `users`.`foto outdoor_activities`.`id` as `activity_id`, `outdoor_activities`.`kehadiran` as `kehadiran`, `outdoor_activities`.`keterangan` as `keterangan`
+FROM `users`
+LEFT JOIN `outdoor_activities` ON `outdoor_activities`.`user_id` = `users`.`id`
+WHERE `users`.`status` = :users.status:
+AND users.group != :users.group:
+ORDER BY `users`.`group`', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(65): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:24:34 --> ErrorException: Undefined array key "group"
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 190.
+ 1 APPPATH\Views\outdoor_activity\display.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 190)
+ 2 [internal function]: CodeIgniter\View\View->{closure}([...])
+ 3 APPPATH\Views\outdoor_activity\display.php(189): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 7 APPPATH\Controllers\OutdoorActivity.php(86): view('outdoor_activity/display', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:24:34 --> ErrorException: Undefined array key "group"
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 190.
+ 1 APPPATH\Views\outdoor_activity\display.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 190)
+ 2 [internal function]: CodeIgniter\View\View->{closure}([...])
+ 3 APPPATH\Views\outdoor_activity\display.php(189): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 7 APPPATH\Controllers\OutdoorActivity.php(86): view('outdoor_activity/display', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:24:36 --> ErrorException: Undefined array key "group"
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 190.
+ 1 APPPATH\Views\outdoor_activity\display.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 190)
+ 2 [internal function]: CodeIgniter\View\View->{closure}([...])
+ 3 APPPATH\Views\outdoor_activity\display.php(189): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 7 APPPATH\Controllers\OutdoorActivity.php(86): view('outdoor_activity/display', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:24:38 --> ErrorException: Undefined array key "group"
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 190.
+ 1 APPPATH\Views\outdoor_activity\display.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 190)
+ 2 [internal function]: CodeIgniter\View\View->{closure}([...])
+ 3 APPPATH\Views\outdoor_activity\display.php(189): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 7 APPPATH\Controllers\OutdoorActivity.php(86): view('outdoor_activity/display', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:24:38 --> ErrorException: Undefined array key "group"
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 190.
+ 1 APPPATH\Views\outdoor_activity\display.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 190)
+ 2 [internal function]: CodeIgniter\View\View->{closure}([...])
+ 3 APPPATH\Views\outdoor_activity\display.php(189): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 7 APPPATH\Controllers\OutdoorActivity.php(86): view('outdoor_activity/display', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:24:38 --> ErrorException: Undefined array key "group"
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 190.
+ 1 APPPATH\Views\outdoor_activity\display.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 190)
+ 2 [internal function]: CodeIgniter\View\View->{closure}([...])
+ 3 APPPATH\Views\outdoor_activity\display.php(189): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 7 APPPATH\Controllers\OutdoorActivity.php(86): view('outdoor_activity/display', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:24:39 --> ErrorException: Undefined array key "group"
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 190.
+ 1 APPPATH\Views\outdoor_activity\display.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "group"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 190)
+ 2 [internal function]: CodeIgniter\View\View->{closure}([...])
+ 3 APPPATH\Views\outdoor_activity\display.php(189): array_filter([...], Object(Closure))
+ 4 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 7 APPPATH\Controllers\OutdoorActivity.php(86): view('outdoor_activity/display', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 01:25:18 --> ErrorException: Undefined array key "nickname"
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 229.
+ 1 APPPATH\Views\outdoor_activity\display.php(229): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nickname"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 229)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(86): view('outdoor_activity/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 02:09:52 --> ErrorException: Undefined array key "status"
+[Method: POST, Route: outdoor-activity/update/4]
+in APPPATH\Controllers\OutdoorActivity.php on line 123.
+ 1 APPPATH\Controllers\OutdoorActivity.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\OutdoorActivity.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('4')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 02:10:25 --> ErrorException: Undefined array key "status"
+[Method: POST, Route: outdoor-activity/update/4]
+in APPPATH\Controllers\OutdoorActivity.php on line 123.
+ 1 APPPATH\Controllers\OutdoorActivity.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\OutdoorActivity.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('4')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 02:10:28 --> ErrorException: Undefined array key "status"
+[Method: POST, Route: outdoor-activity/update/4]
+in APPPATH\Controllers\OutdoorActivity.php on line 123.
+ 1 APPPATH\Controllers\OutdoorActivity.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "status"', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\OutdoorActivity.php', 123)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('4')
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 02:28:38 --> ErrorException: Array to string conversion
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 356.
+ 1 APPPATH\Views\outdoor_activity\display.php(356): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 356)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(86): view('outdoor_activity/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 04:18:38 --> mysqli_sql_exception: Unknown column 'oa.created_at' in 'where clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `kehadir...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kehadir...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kehadir...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `kehadir...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(73): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 04:18:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'oa.created_at' in 'where clause'
+[Method: GET, Route: outdoor-activity]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `kehadiran`, COUNT(*) as total
+FROM `outdoor_activities`
+WHERE DATE(oa.created_at) = :DATE(oa.created_at):
+GROUP BY `kehadiran`', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(73): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 04:18:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'oa.created_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kehadiran`, COUNT(*) as total
+FROM `outdoor_activities`
+WHERE DATE(oa.created_at) = \'2025-02-21\'
+GROUP BY `kehadiran`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kehadiran`, COUNT(*) as total
+FROM `outdoor_activities`
+WHERE DATE(oa.created_at) = \'2025-02-21\'
+GROUP BY `kehadiran`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `kehadiran`, COUNT(*) as total
+FROM `outdoor_activities`
+WHERE DATE(oa.created_at) = :DATE(oa.created_at):
+GROUP BY `kehadiran`', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(73): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 04:18:38 --> [Caused by] mysqli_sql_exception: Unknown column 'oa.created_at' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `kehadiran`, COUNT(*) as total
+FROM `outdoor_activities`
+WHERE DATE(oa.created_at) = \'2025-02-21\'
+GROUP BY `kehadiran`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `kehadiran`, COUNT(*) as total
+FROM `outdoor_activities`
+WHERE DATE(oa.created_at) = \'2025-02-21\'
+GROUP BY `kehadiran`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `kehadiran`, COUNT(*) as total
+FROM `outdoor_activities`
+WHERE DATE(oa.created_at) = \'2025-02-21\'
+GROUP BY `kehadiran`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `kehadiran`, COUNT(*) as total
+FROM `outdoor_activities`
+WHERE DATE(oa.created_at) = :DATE(oa.created_at):
+GROUP BY `kehadiran`', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(73): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 04:24:32 --> ErrorException: Undefined variable $activityBuilder
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Controllers\OutdoorActivity.php on line 98.
+ 1 APPPATH\Controllers\OutdoorActivity.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activityBuilder', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\OutdoorActivity.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 04:24:37 --> ErrorException: Undefined variable $activityBuilder
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Controllers\OutdoorActivity.php on line 98.
+ 1 APPPATH\Controllers\OutdoorActivity.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activityBuilder', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\OutdoorActivity.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 04:24:37 --> ErrorException: Undefined variable $activityBuilder
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Controllers\OutdoorActivity.php on line 98.
+ 1 APPPATH\Controllers\OutdoorActivity.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activityBuilder', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\OutdoorActivity.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 04:24:38 --> ErrorException: Undefined variable $activityBuilder
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Controllers\OutdoorActivity.php on line 98.
+ 1 APPPATH\Controllers\OutdoorActivity.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activityBuilder', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\OutdoorActivity.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 04:24:38 --> ErrorException: Undefined variable $activityBuilder
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Controllers\OutdoorActivity.php on line 98.
+ 1 APPPATH\Controllers\OutdoorActivity.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activityBuilder', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\OutdoorActivity.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 04:24:38 --> ErrorException: Undefined variable $activityBuilder
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Controllers\OutdoorActivity.php on line 98.
+ 1 APPPATH\Controllers\OutdoorActivity.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activityBuilder', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\OutdoorActivity.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 04:24:38 --> ErrorException: Undefined variable $activityBuilder
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Controllers\OutdoorActivity.php on line 98.
+ 1 APPPATH\Controllers\OutdoorActivity.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activityBuilder', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\OutdoorActivity.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 04:24:39 --> ErrorException: Undefined variable $activityBuilder
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Controllers\OutdoorActivity.php on line 98.
+ 1 APPPATH\Controllers\OutdoorActivity.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $activityBuilder', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Controllers\\OutdoorActivity.php', 98)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 06:32:09 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Controllers\OutdoorActivity.php on line 134.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 06:32:42 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Controllers\OutdoorActivity.php on line 134.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 06:33:44 --> Error: Class "App\Controllers\DateTime" not found
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Controllers\OutdoorActivity.php on line 152.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 07:01:05 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('8')
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 07:01:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+[Method: POST, Route: outdoor-activity/update/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('8')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 07:01:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('8')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 07:01:05 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 07:01:09 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('8')
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 07:01:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+[Method: POST, Route: outdoor-activity/update/8]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('8')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 07:01:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('8')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 07:01:09 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('8')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 07:01:34 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('45')
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 07:01:34 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+[Method: POST, Route: outdoor-activity/update/45]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('45')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 07:01:34 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('45')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 07:01:34 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('45')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 07:02:07 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('45')
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 07:02:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+[Method: POST, Route: outdoor-activity/update/45]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('45')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 07:02:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('45')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 07:02:07 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('45')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+ERROR - 2025-02-21 07:02:28 --> mysqli_sql_exception: Unknown column 'user_id' in 'where clause' in D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\Project Lintang\PROJEK\daily_report2\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Project Lintang\PROJEK\daily_report2\system\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Project Lintang\PROJEK\daily_report2\app\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('45')
+#6 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+#7 D:\Project Lintang\PROJEK\daily_report2\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#9 D:\Project Lintang\PROJEK\daily_report2\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 D:\Project Lintang\PROJEK\daily_report2\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 D:\Project Lintang\PROJEK\daily_report2\system\rewrite.php(44): require_once('D:\\Project Lint...')
+#12 {main}
+CRITICAL - 2025-02-21 07:02:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+[Method: POST, Route: outdoor-activity/update/45]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 2 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('45')
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 07:02:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 4 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('45')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 07:02:28 --> [Caused by] mysqli_sql_exception: Unknown column 'user_id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = \'13\'
+AND DATE(created_at) = \'2025-02-21\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1733): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `actual_activity`
+WHERE `user_id` = :user_id:
+AND DATE(created_at) = :DATE(created_at):', [...], false)
+ 5 APPPATH\Controllers\OutdoorActivity.php(305): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->update('45')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 07:51:51 --> ErrorException: Undefined variable $labelsWeekly
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 327.
+ 1 APPPATH\Views\outdoor_activity\display.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $labelsWeekly', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 327)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(262): view('outdoor_activity/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 07:52:00 --> ErrorException: Undefined variable $labelsWeekly
+[Method: GET, Route: outdoor-activity/display]
+in APPPATH\Views\outdoor_activity\display.php on line 327.
+ 1 APPPATH\Views\outdoor_activity\display.php(327): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $labelsWeekly', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php', 327)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\outdoor_activity\\display.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('outdoor_activity/display', [], true)
+ 5 APPPATH\Controllers\OutdoorActivity.php(262): view('outdoor_activity/display', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\OutdoorActivity->display()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OutdoorActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
+CRITICAL - 2025-02-21 09:09:12 --> ErrorException: Undefined variable $defaultActivityId
+[Method: GET, Route: actual-activity/edit/dpPvtU9pV_bSL8zWbujzyDmFuFvYPStm5LF-0qjrzXpSl1bceSlfFwAHToFQQLEpiSqXXrJPCb5IutwFEgx3LjdoAMnPQnMocpJYJ2X9U9Z4Ib0]
+in APPPATH\Views\actual_activity\edit.php on line 135.
+ 1 APPPATH\Views\actual_activity\edit.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $defaultActivityId', 'D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\actual_activity\\edit.php', 135)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\Project Lintang\\PROJEK\\daily_report2\\app\\Views\\actual_activity\\edit.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('actual_activity/edit', [], true)
+ 5 APPPATH\Controllers\ActualActivity.php(275): view('actual_activity/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\ActualActivity->edit('dpPvtU9pV_bSL8zWbujzyDmFuFvYPStm5LF-0qjrzXpSl1bceSlfFwAHToFQQLEpiSqXXrJPCb5IutwFEgx3LjdoAMnPQnMocpJYJ2X9U9Z4Ib0')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ActualActivity))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\Project Lintang\\PROJEK\\daily_report2\\public\\index.php')
